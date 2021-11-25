@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4280478898670192}
   - component: {fileID: 33157200903566380}
   - component: {fileID: 23354352222571670}
+  - component: {fileID: 7661883812446966538}
   m_Layer: 0
   m_Name: PoorChair
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1257272363957268}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4938675, y: 0.49386752, z: 0.49386752}
+  m_LocalScale: {x: 0.49386746, y: 0.49386752, z: 0.4938675}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7661883812446966538
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257272363957268}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1328409, y: 0.9406332, z: 1.2930682}
+  m_Center: {x: 4.2832138e-10, y: 0.47638315, z: -0.08011741}

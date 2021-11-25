@@ -49,7 +49,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1424892734810590}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -133,7 +133,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1556823486437998}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -217,7 +217,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1613724388311176}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -278,7 +278,7 @@ Transform:
   m_GameObject: {fileID: 1723258036983606}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.6677322, y: 1.6677324, z: 1.6677324}
+  m_LocalScale: {x: 1.6677322, y: 1.6677324, z: 1.6677325}
   m_Children:
   - {fileID: 4194582267273888}
   - {fileID: 4747504332478444}
@@ -367,7 +367,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1815765757468572}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
