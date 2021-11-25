@@ -8,6 +8,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class EntityHealth : MonoBehaviour
 {
@@ -16,6 +17,13 @@ public class EntityHealth : MonoBehaviour
     private float maxHealth = 100f;
     public bool DestroyOnDeath = true;
 
+    public HealthBar healthBar;
+
+
+    void Start()
+    {
+        healthBar.SetMaxHealth(maxHealth);
+    }
 
     public float HealthPoints
     {
