@@ -1243,3 +1243,2073 @@ Received Import Request.
 Start importing Assets/Imported Assets/Medieval Props Asset Pack/Materials/Metal3.mat using Guid(eb62e24de22e041e6a0600b94613cdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df6ee0056d6345db38172f5ebccd884') in 0.228618 seconds 
   Import took 0.261724 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.048121 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.879 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10176ms)
+		BeginReloadAssembly (7168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (542ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (16ms)
+			CreateAndSetChildDomain (3696ms)
+		EndReloadAssembly (2500ms)
+			LoadAssemblies (492ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (797ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (837ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (249ms)
+				ProcessInitializeOnLoadAttributes (550ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4280 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.7 MB.
+System memory in use after: 184.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4929.
+Total: 58.931900 ms (FindLiveObjects: 0.714200 ms CreateObjectMapping: 0.258200 ms MarkObjects: 46.762500 ms  DeleteObjects: 11.194600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003668 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.662 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1663ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1423ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (536ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (557ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (411ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4280 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.8 MB.
+System memory in use after: 184.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4931.
+Total: 4.871200 ms (FindLiveObjects: 0.388100 ms CreateObjectMapping: 0.247100 ms MarkObjects: 3.844600 ms  DeleteObjects: 0.390500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1104.937329 seconds.
+  path: Assets/EffectExamples
+  artifactKey: Guid(6c0b056137d972f46a0312ba21b6263f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples using Guid(6c0b056137d972f46a0312ba21b6263f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e556d825938eb81acaf094141267aab') in 0.020752 seconds 
+  Import took 0.057820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/EffectExamples/SmokeTrail.mat
+  artifactKey: Guid(85320f50710fcfb4d886bc56151bea1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/SmokeTrail.mat using Guid(85320f50710fcfb4d886bc56151bea1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4cee2062885be6416dfd088df5e9b0') in 1.329465 seconds 
+  Import took 1.354564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/EffectExamples/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468e7179bb661ce24b6eb3174de739f0') in 0.043355 seconds 
+  Import took 0.075051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.856388 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects
+  artifactKey: Guid(9c9c292c9091a7d4fbaf34fdd81b85fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects using Guid(9c9c292c9091a7d4fbaf34fdd81b85fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e943d9774d6134ef0b7ff39e059e82bb') in 0.009365 seconds 
+  Import took 0.030967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.222484 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs
+  artifactKey: Guid(af557a47dae08a94cb2839384fe7ac98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs using Guid(af557a47dae08a94cb2839384fe7ac98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082e04a831ba42b268c8f54c1a8723e2') in 0.007638 seconds 
+  Import took 0.046085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004100 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/BigExplosionEffect.prefab
+  artifactKey: Guid(acf39d9f4addf294d93fa56fa373961b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/BigExplosionEffect.prefab using Guid(acf39d9f4addf294d93fa56fa373961b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b5daa615108d7797ec6fe561e0660a') in 0.472141 seconds 
+  Import took 0.484820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/PlasmaExplosionEffect.prefab
+  artifactKey: Guid(96730f8640590934eacb6f860058e7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/PlasmaExplosionEffect.prefab using Guid(96730f8640590934eacb6f860058e7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c36a7238d66086092c88a66195ef88e') in 0.379273 seconds 
+  Import took 0.469923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/SmokeEffect.prefab
+  artifactKey: Guid(85a8865d1bf4a63478038fae23776de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/SmokeEffect.prefab using Guid(85a8865d1bf4a63478038fae23776de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2635a659dfe7667378311993895845') in 0.038849 seconds 
+  Import took 0.083974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/WallFlames.prefab
+  artifactKey: Guid(2c7e85f4b03483447a66947c83fb7468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/WallFlames.prefab using Guid(2c7e85f4b03483447a66947c83fb7468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d6b61383f00e80cc4a972cdd57ebbb') in 0.400639 seconds 
+  Import took 0.421711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/DrippingFlames.prefab
+  artifactKey: Guid(ce4133109fd2cb7469faad8e7c4307a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/DrippingFlames.prefab using Guid(ce4133109fd2cb7469faad8e7c4307a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca0435fdd62034c949797ad4b3ca644') in 0.025970 seconds 
+  Import took 0.055605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000782 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/FlameThrowerEffect.prefab
+  artifactKey: Guid(3123da49cb81147489b444f2749aba47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/FlameThrowerEffect.prefab using Guid(3123da49cb81147489b444f2749aba47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f25a983a46c0ae08f07f6ff8d759a06') in 0.071928 seconds 
+  Import took 0.083842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/TorchEffect.prefab
+  artifactKey: Guid(3cdf614b79009ca49a2a5c117fb49c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/TorchEffect.prefab using Guid(3cdf614b79009ca49a2a5c117fb49c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c58c06f7e460c1f3847b8855fd8e29') in 0.036588 seconds 
+  Import took 0.046072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/SmallExplosionEffect.prefab
+  artifactKey: Guid(ecdd96beb7f93494880c052dfccf9dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/SmallExplosionEffect.prefab using Guid(ecdd96beb7f93494880c052dfccf9dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100d9885c941fda44c48579f45fd1e69') in 0.049616 seconds 
+  Import took 0.090315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001192 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab
+  artifactKey: Guid(3228a22491941734bb83ad691d17fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab using Guid(3228a22491941734bb83ad691d17fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c989b7502f67fee0e1983e3696ae039c') in 0.038859 seconds 
+  Import took 0.049447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/RibbonSmoke.prefab
+  artifactKey: Guid(4d35711ba17dcd4409264568d9155360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/RibbonSmoke.prefab using Guid(4d35711ba17dcd4409264568d9155360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d2cf5b0fd2f40efa3e16ba22a79b83') in 0.017600 seconds 
+  Import took 0.027577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/FlamesEffects.prefab
+  artifactKey: Guid(b9e167e31f640b34f87caab122fca598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/FlamesEffects.prefab using Guid(b9e167e31f640b34f87caab122fca598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c10f038326760c6b8d800c0d670d1c') in 0.072222 seconds 
+  Import took 0.083247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.067790 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Materials/SmokeLightParticle.mat
+  artifactKey: Guid(f06455b167e1b0b428c9af62d7aa6832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Materials/SmokeLightParticle.mat using Guid(f06455b167e1b0b428c9af62d7aa6832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f868ad02dd374c53ab6170217028e02') in 0.044197 seconds 
+  Import took 0.068718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.682122 seconds.
+  path: Assets/Prefabs/OldHandTorch.prefab
+  artifactKey: Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OldHandTorch.prefab using Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ce6ef104bc3e5557fdde9c5713fb7b') in 0.332977 seconds 
+  Import took 0.355781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.335145 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Materials/FlameRoundYellowParticle.mat
+  artifactKey: Guid(d7f098ed9997e714193be5e86df013f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Materials/FlameRoundYellowParticle.mat using Guid(d7f098ed9997e714193be5e86df013f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b696b9008ea106bf84b2d34a130942') in 0.122788 seconds 
+  Import took 0.133101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.269788 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Materials/SmokeDarkParticle.mat
+  artifactKey: Guid(698a8134f4ebbbd4e848648685f68067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Materials/SmokeDarkParticle.mat using Guid(698a8134f4ebbbd4e848648685f68067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6b384f53f41a4067c6c446bc4ef326') in 0.046120 seconds 
+  Import took 0.057853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.333920 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Materials/EmbersParticle.mat
+  artifactKey: Guid(776677ab3818fb249adaca05f4e04545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Materials/EmbersParticle.mat using Guid(776677ab3818fb249adaca05f4e04545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879d17eac1f7cb0c4606d6f121e003de') in 0.046639 seconds 
+  Import took 0.056481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.207501 seconds.
+  path: Assets/Prefabs/OldHandTorch.prefab
+  artifactKey: Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OldHandTorch.prefab using Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420e94f97b9e115a52519f9d63ede0f2') in 0.053522 seconds 
+  Import took 0.091496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.742755 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Materials
+  artifactKey: Guid(d55d5882cc8028a459a0a5793070b388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Materials using Guid(d55d5882cc8028a459a0a5793070b388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0500226547e3487a9eacb9adee1e10e3') in 0.023450 seconds 
+  Import took 0.051272 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004660 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.899 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1900ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1656ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (554ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (704ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (546ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4280 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.3 MB.
+System memory in use after: 185.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4938.
+Total: 5.278200 ms (FindLiveObjects: 0.634100 ms CreateObjectMapping: 0.378400 ms MarkObjects: 4.161700 ms  DeleteObjects: 0.102900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 185.235481 seconds.
+  path: Assets/Prefabs/Pillar Fire Source.prefab
+  artifactKey: Guid(dc33a10277ce7ab418634338f3883c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pillar Fire Source.prefab using Guid(dc33a10277ce7ab418634338f3883c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc2984806b848029a79e48236ce87ee') in 0.377287 seconds 
+  Import took 0.404838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.815700 seconds.
+  path: Assets/Prefabs/OldHandTorch.prefab
+  artifactKey: Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OldHandTorch.prefab using Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c6e359dd957492200ebbe4c0d874d4') in 0.047271 seconds 
+  Import took 0.075626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Prefabs/Pillar Fire Source.prefab
+  artifactKey: Guid(dc33a10277ce7ab418634338f3883c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pillar Fire Source.prefab using Guid(dc33a10277ce7ab418634338f3883c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb532c2ce4a9a00acf5ec574e208f2e7') in 0.036788 seconds 
+  Import took 0.057822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.232164 seconds.
+  path: Assets/Prefabs/OldHandTorch.prefab
+  artifactKey: Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OldHandTorch.prefab using Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5e605f4e24824f50eff8d6836adf9d') in 0.055119 seconds 
+  Import took 0.093810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Prefabs/Pillar Fire Source.prefab
+  artifactKey: Guid(dc33a10277ce7ab418634338f3883c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pillar Fire Source.prefab using Guid(dc33a10277ce7ab418634338f3883c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0467315aaa0bc9666dbadf5c53db50d8') in 0.083767 seconds 
+  Import took 0.103597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.810832 seconds.
+  path: Assets/Prefabs/OldHandTorch.prefab
+  artifactKey: Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OldHandTorch.prefab using Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207f78e34230408f1aa4638b6f99321a') in 0.036492 seconds 
+  Import took 0.047313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Prefabs/Pillar Fire Source.prefab
+  artifactKey: Guid(dc33a10277ce7ab418634338f3883c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pillar Fire Source.prefab using Guid(dc33a10277ce7ab418634338f3883c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8cf90ad176fcdba4c17faf6369ee9c') in 0.032087 seconds 
+  Import took 0.041216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.705936 seconds.
+  path: Assets/Prefabs/OldHandTorch.prefab
+  artifactKey: Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OldHandTorch.prefab using Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1b03e57f050f2e94991df704d68cee') in 0.062433 seconds 
+  Import took 0.085565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.223986 seconds.
+  path: Assets/Prefabs/OldHandTorch.prefab
+  artifactKey: Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OldHandTorch.prefab using Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8233cfda1223c2412213fc70b6ea1412') in 0.068535 seconds 
+  Import took 0.079396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.319438 seconds.
+  path: Assets/Prefabs/OldHandTorch.prefab
+  artifactKey: Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OldHandTorch.prefab using Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bcb03a279c77df44fe38e1e887b896') in 0.040321 seconds 
+  Import took 0.053411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.321403 seconds.
+  path: Assets/Prefabs/OldHandTorch.prefab
+  artifactKey: Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OldHandTorch.prefab using Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb431d1a3274c6a8eb37fbdfb114df4') in 0.046441 seconds 
+  Import took 0.068595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.770681 seconds.
+  path: Assets/Prefabs/OldHandTorch.prefab
+  artifactKey: Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OldHandTorch.prefab using Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f37f8c6ea75ba3aa9215288b7ec9758') in 0.059905 seconds 
+  Import took 0.098963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.306407 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab
+  artifactKey: Guid(3228a22491941734bb83ad691d17fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab using Guid(3228a22491941734bb83ad691d17fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9f9daccdd67983573c8f9fdd8e5dfb') in 0.017115 seconds 
+  Import took 0.026027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.693172 seconds.
+  path: Assets/Prefabs/OldHandTorch.prefab
+  artifactKey: Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OldHandTorch.prefab using Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f24bb95212d08de57cd8ba4a84796e4') in 0.039718 seconds 
+  Import took 0.051757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.303472 seconds.
+  path: Assets/Prefabs/OldHandTorch.prefab
+  artifactKey: Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OldHandTorch.prefab using Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ff63da1786ce29be50c16640ac28f7') in 0.048644 seconds 
+  Import took 0.071480 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.262759 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.866 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4869ms)
+		BeginReloadAssembly (894ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (292ms)
+		EndReloadAssembly (3460ms)
+			LoadAssemblies (686ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1120ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (192ms)
+			SetupLoadedEditorAssemblies (1275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (271ms)
+				ProcessInitializeOnLoadAttributes (946ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4279 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.2 MB.
+System memory in use after: 185.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4941.
+Total: 21.889600 ms (FindLiveObjects: 0.527700 ms CreateObjectMapping: 0.397100 ms MarkObjects: 20.562600 ms  DeleteObjects: 0.366400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006972 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.953 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1954ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1690ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (583ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (130ms)
+			SetupLoadedEditorAssemblies (659ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (494ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4279 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.2 MB.
+System memory in use after: 185.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4943.
+Total: 7.876500 ms (FindLiveObjects: 0.767500 ms CreateObjectMapping: 0.588600 ms MarkObjects: 6.427700 ms  DeleteObjects: 0.091000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1355.643602 seconds.
+  path: Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Materials/Medfan_Boxes.mat
+  artifactKey: Guid(da060927342064f4ea1c78c5afd32a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Materials/Medfan_Boxes.mat using Guid(da060927342064f4ea1c78c5afd32a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb087a4d061f60ec61d46634ffb85d81') in 0.875593 seconds 
+  Import took 0.901220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.511236 seconds.
+  path: Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Models/Barrel_Col.FBX
+  artifactKey: Guid(55263d143399bff4e914ff995f4e256d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Models/Barrel_Col.FBX using Guid(55263d143399bff4e914ff995f4e256d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bcfc08fd240c011964ebb71de0c22e') in 0.299656 seconds 
+  Import took 0.313255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.435048 seconds.
+  path: Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Maps/Medfan_Barrels_AO.png
+  artifactKey: Guid(639c373332f6d144797b800833c9da3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Maps/Medfan_Barrels_AO.png using Guid(639c373332f6d144797b800833c9da3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48ab6d1418d5582dce8a8395ee24417') in 0.222973 seconds 
+  Import took 0.250431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Maps/Medfan_Boxes_metallic.png
+  artifactKey: Guid(859e0056939bffc468dc318c5c0ecdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Maps/Medfan_Boxes_metallic.png using Guid(859e0056939bffc468dc318c5c0ecdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b308f936615902be5e5f2bd60fcebb3f') in 0.055334 seconds 
+  Import took 0.090669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001086 seconds.
+  path: Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Maps/Medfan_Barrels_metallic.png
+  artifactKey: Guid(283edbd067f376a4cbaddc335d964004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Maps/Medfan_Barrels_metallic.png using Guid(283edbd067f376a4cbaddc335d964004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfaffa53a5a246408fb924e46c2442b') in 0.284977 seconds 
+  Import took 0.296924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Maps/Medfan_Barrels_diffuse.png
+  artifactKey: Guid(f97f10b4ee9a1ea45ba5e48553940263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Maps/Medfan_Barrels_diffuse.png using Guid(f97f10b4ee9a1ea45ba5e48553940263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc54b03a1ccd5520974a7243782fa74') in 0.164794 seconds 
+  Import took 0.174928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001891 seconds.
+  path: Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Maps/Medfan_Boxes_normal.png
+  artifactKey: Guid(d463cdb86039f94498ea3222d5837236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Maps/Medfan_Boxes_normal.png using Guid(d463cdb86039f94498ea3222d5837236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5759ca8cd5c1dd02573642cfe4c8a3e7') in 0.043012 seconds 
+  Import took 0.078803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Maps/Medfan_Barrels_normal.png
+  artifactKey: Guid(227655d4bb0e6a04ba986ad06865123b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Maps/Medfan_Barrels_normal.png using Guid(227655d4bb0e6a04ba986ad06865123b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0904ab6ca56d71e526ee60b580916edb') in 0.225835 seconds 
+  Import took 0.256291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Maps/Medfan_Boxes_AO.png
+  artifactKey: Guid(88f5ee199217ffe4fa8e9d3eee54e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Maps/Medfan_Boxes_AO.png using Guid(88f5ee199217ffe4fa8e9d3eee54e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e203694a9551a82dbd34a618974dc7') in 0.037749 seconds 
+  Import took 0.066794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Maps/Medfan_Boxes_diffuse.png
+  artifactKey: Guid(8000d6f233a138e43a545ae1779790de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Maps/Medfan_Boxes_diffuse.png using Guid(8000d6f233a138e43a545ae1779790de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800041f424c8337dd9c82d41bc9ed3e6') in 0.046510 seconds 
+  Import took 0.064851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.474160 seconds.
+  path: Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Demo
+  artifactKey: Guid(030adab79279caa47ab5373d46bedb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Demo using Guid(030adab79279caa47ab5373d46bedb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb43a91a1ac101a6ed7278f7bc44d391') in 0.039415 seconds 
+  Import took 0.046998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030352 seconds.
+  path: Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Demo/Ground.mat
+  artifactKey: Guid(12932df33d3168642bafd8df157f13eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Demo/Ground.mat using Guid(12932df33d3168642bafd8df157f13eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94385211c8cab9ee6e5fe5789a73174') in 0.082686 seconds 
+  Import took 0.112144 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005119 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.857 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1859ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1618ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (584ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (658ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (505ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4279 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.2 MB.
+System memory in use after: 185.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4947.
+Total: 6.604700 ms (FindLiveObjects: 1.374500 ms CreateObjectMapping: 0.483900 ms MarkObjects: 4.649800 ms  DeleteObjects: 0.094600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 121.791131 seconds.
+  path: Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Prefabs/Medfan_SquareBox.prefab
+  artifactKey: Guid(251c8624e01c15b468d2b8804159d173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Prefabs/Medfan_SquareBox.prefab using Guid(251c8624e01c15b468d2b8804159d173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693779401d523238fbb3546148cc693c') in 0.138173 seconds 
+  Import took 0.178757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011520 seconds.
+  path: Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Prefabs/Medfan_SquareBox.prefab
+  artifactKey: Guid(251c8624e01c15b468d2b8804159d173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Prefabs/Medfan_SquareBox.prefab using Guid(251c8624e01c15b468d2b8804159d173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35da47cf3a7540b460febfda141bddd9') in 0.100778 seconds 
+  Import took 0.132272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.361516 seconds.
+  path: Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Prefabs/Medfan_SquareBox.prefab
+  artifactKey: Guid(251c8624e01c15b468d2b8804159d173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Prefabs/Medfan_SquareBox.prefab using Guid(251c8624e01c15b468d2b8804159d173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b28afc167b3a2a634937c1fa22830b') in 0.075113 seconds 
+  Import took 0.087663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.656572 seconds.
+  path: Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Prefabs/Medfan_SquareBox.prefab
+  artifactKey: Guid(251c8624e01c15b468d2b8804159d173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Prefabs/Medfan_SquareBox.prefab using Guid(251c8624e01c15b468d2b8804159d173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e2e2b5d89fcb5ab5fc8ab6b32525e6') in 0.081506 seconds 
+  Import took 0.121596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.469056 seconds.
+  path: Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Prefabs/Medfan_SquareBox.prefab
+  artifactKey: Guid(251c8624e01c15b468d2b8804159d173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/JulienNoelAssets/Medfan_BarrelsAndBoxes/Prefabs/Medfan_SquareBox.prefab using Guid(251c8624e01c15b468d2b8804159d173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95358cf06174f85c3db03d4b7a1dd2eb') in 0.079145 seconds 
+  Import took 0.109814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.404750 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/CubeCrate.prefab
+  artifactKey: Guid(8494a47407dd047a49c1776429bf639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/CubeCrate.prefab using Guid(8494a47407dd047a49c1776429bf639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedf4583ed8fcf80c13892d5913b9d4e') in 0.218151 seconds 
+  Import took 0.230507 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008636 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.471 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2471ms)
+		BeginReloadAssembly (261ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (2073ms)
+			LoadAssemblies (237ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (695ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (935ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (216ms)
+				ProcessInitializeOnLoadAttributes (688ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4279 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.0 MB.
+System memory in use after: 185.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4950.
+Total: 5.643000 ms (FindLiveObjects: 0.425400 ms CreateObjectMapping: 0.318500 ms MarkObjects: 4.812300 ms  DeleteObjects: 0.085500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 141.375005 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/WoodenBench.prefab
+  artifactKey: Guid(c395ddc6be5a049d69c6af3adc8089e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/WoodenBench.prefab using Guid(c395ddc6be5a049d69c6af3adc8089e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcada4a35d7cc6ba94dacfb26163a91') in 0.187048 seconds 
+  Import took 0.207297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.036793 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/WoodenBench.prefab
+  artifactKey: Guid(c395ddc6be5a049d69c6af3adc8089e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/WoodenBench.prefab using Guid(c395ddc6be5a049d69c6af3adc8089e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ccfcb5cbaa855417069eb0185fd932') in 0.052847 seconds 
+  Import took 0.080932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.556855 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/WoodenBench.prefab
+  artifactKey: Guid(c395ddc6be5a049d69c6af3adc8089e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/WoodenBench.prefab using Guid(c395ddc6be5a049d69c6af3adc8089e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666a74a4b92305999d3db133a9f2c79a') in 0.028373 seconds 
+  Import took 0.045437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.982904 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/WoodenBench.prefab
+  artifactKey: Guid(c395ddc6be5a049d69c6af3adc8089e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/WoodenBench.prefab using Guid(c395ddc6be5a049d69c6af3adc8089e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458ed44421ca4ec66cfb882eee7168db') in 0.026486 seconds 
+  Import took 0.068156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.531490 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/WoodenBench.prefab
+  artifactKey: Guid(c395ddc6be5a049d69c6af3adc8089e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/WoodenBench.prefab using Guid(c395ddc6be5a049d69c6af3adc8089e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb70fa0795578103e13ad9c3c602e8ee') in 0.025528 seconds 
+  Import took 0.035878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.415952 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/WoodenBench.prefab
+  artifactKey: Guid(c395ddc6be5a049d69c6af3adc8089e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/WoodenBench.prefab using Guid(c395ddc6be5a049d69c6af3adc8089e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9129c338562f8d59150086002ae0cb') in 0.022337 seconds 
+  Import took 0.032978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.619240 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/WoodenBench.prefab
+  artifactKey: Guid(c395ddc6be5a049d69c6af3adc8089e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/WoodenBench.prefab using Guid(c395ddc6be5a049d69c6af3adc8089e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece6e04768149e4f41fcdbddf1a35588') in 0.024773 seconds 
+  Import took 0.040669 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004244 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.196 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2200ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1939ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (515ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (948ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (753ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4279 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.1 MB.
+System memory in use after: 185.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4953.
+Total: 8.106100 ms (FindLiveObjects: 1.074600 ms CreateObjectMapping: 1.271000 ms MarkObjects: 5.631700 ms  DeleteObjects: 0.127300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.112741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 12.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.738 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9853ms)
+		BeginReloadAssembly (4878ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (210ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (71ms)
+			CreateAndSetChildDomain (2249ms)
+		EndReloadAssembly (4506ms)
+			LoadAssemblies (1063ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1380ms)
+			ReleaseScriptCaches (121ms)
+			RebuildScriptCaches (238ms)
+			SetupLoadedEditorAssemblies (1605ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (12ms)
+				BeforeProcessingInitializeOnLoad (326ms)
+				ProcessInitializeOnLoadAttributes (1189ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4279 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.1 MB.
+System memory in use after: 185.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4955.
+Total: 158.031100 ms (FindLiveObjects: 20.700700 ms CreateObjectMapping: 0.353700 ms MarkObjects: 85.046700 ms  DeleteObjects: 51.927400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1820.334836 seconds.
+  path: Assets/Prefabs/OldHandTorch.prefab
+  artifactKey: Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OldHandTorch.prefab using Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a6b57e2daf0ca9ea9980322188cd2e') in 5.021166 seconds 
+  Import took 5.140993 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.064730 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.049 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5050ms)
+		BeginReloadAssembly (520ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (195ms)
+		EndReloadAssembly (4345ms)
+			LoadAssemblies (648ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1743ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (250ms)
+			SetupLoadedEditorAssemblies (1411ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (336ms)
+				ProcessInitializeOnLoadAttributes (1017ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4279 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.3 MB.
+System memory in use after: 185.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4958.
+Total: 5.404600 ms (FindLiveObjects: 0.565600 ms CreateObjectMapping: 0.395400 ms MarkObjects: 4.328600 ms  DeleteObjects: 0.113400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007192 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.877 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2879ms)
+		BeginReloadAssembly (349ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (2397ms)
+			LoadAssemblies (313ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1024ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (192ms)
+			SetupLoadedEditorAssemblies (707ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (506ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4279 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.3 MB.
+System memory in use after: 185.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4960.
+Total: 4.590000 ms (FindLiveObjects: 0.456200 ms CreateObjectMapping: 0.230100 ms MarkObjects: 3.813200 ms  DeleteObjects: 0.088800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 892.813383 seconds.
+  path: Assets/Prefabs/OldHandTorch.prefab
+  artifactKey: Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OldHandTorch.prefab using Guid(5427402d78c8f994d9147e606a472e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc19aa4fe5213653ba89d25bc064d01') in 0.900692 seconds 
+  Import took 0.954325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.294327 seconds.
+  path: Assets/Prefabs/Pillar Fire Source.prefab
+  artifactKey: Guid(dc33a10277ce7ab418634338f3883c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pillar Fire Source.prefab using Guid(dc33a10277ce7ab418634338f3883c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69c66d051a98f4fb61bf80471a9fc22') in 0.491038 seconds 
+  Import took 0.504191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.722196 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/CubeCrate.prefab
+  artifactKey: Guid(8494a47407dd047a49c1776429bf639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/CubeCrate.prefab using Guid(8494a47407dd047a49c1776429bf639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bff6451e56e789ee400b44450012d85') in 0.142707 seconds 
+  Import took 0.153931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Handcart.prefab
+  artifactKey: Guid(ad68d2f6e3b05412fbf32943c104dbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Handcart.prefab using Guid(ad68d2f6e3b05412fbf32943c104dbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ee3ed7b09fc8848439b5f8c5083405') in 0.599801 seconds 
+  Import took 0.610275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.497684 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/AlchemyBench.prefab
+  artifactKey: Guid(3fc165e9be109452b896b77ffebfed0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/AlchemyBench.prefab using Guid(3fc165e9be109452b896b77ffebfed0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26f1039ab0a0c1043ab94c2e4ee8e80') in 0.147387 seconds 
+  Import took 0.223853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.286485 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/AnvilStand1.prefab
+  artifactKey: Guid(5c9e67bbe1459436da9a1b9c8ae2be06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/AnvilStand1.prefab using Guid(5c9e67bbe1459436da9a1b9c8ae2be06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2966cf025c28cf4012ced59bd99aaf2d') in 0.118431 seconds 
+  Import took 0.140485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Whetstone.prefab
+  artifactKey: Guid(4f0d9c9fded4c46c1a714097aa1d5267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Whetstone.prefab using Guid(4f0d9c9fded4c46c1a714097aa1d5267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238512dba448987d4f2fe338817448ab') in 0.360811 seconds 
+  Import took 0.372268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Barrell.prefab
+  artifactKey: Guid(7d70a843c93994073bb311530860c1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Barrell.prefab using Guid(7d70a843c93994073bb311530860c1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3107ee091972f7b5d0d05253c821bc') in 0.464674 seconds 
+  Import took 0.494138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Roundstool.prefab
+  artifactKey: Guid(4f85422b22bc44d5fbc42e37de2219b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Roundstool.prefab using Guid(4f85422b22bc44d5fbc42e37de2219b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af625330ba2d6087083400a03191efbe') in 0.121378 seconds 
+  Import took 0.159827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/BarrellRack.prefab
+  artifactKey: Guid(a03b81342ef734780a58227b4fda7eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/BarrellRack.prefab using Guid(a03b81342ef734780a58227b4fda7eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c583514bbb20a2b953178954a6d566') in 0.051456 seconds 
+  Import took 0.076427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/AnvilStand2.prefab
+  artifactKey: Guid(87f6f752427f545309928441a0f6d12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/AnvilStand2.prefab using Guid(87f6f752427f545309928441a0f6d12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba714f3a7248c41e1f1fabde98d6789') in 0.041189 seconds 
+  Import took 0.094444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/WoodenBench.prefab
+  artifactKey: Guid(c395ddc6be5a049d69c6af3adc8089e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/WoodenBench.prefab using Guid(c395ddc6be5a049d69c6af3adc8089e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1741410abf78c6e58ea7ade44ac930') in 0.066270 seconds 
+  Import took 0.077935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/AwlTool.prefab
+  artifactKey: Guid(4b09b9607d70c4a37953f392ae1c6529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/AwlTool.prefab using Guid(4b09b9607d70c4a37953f392ae1c6529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e12b5333b1a3a63b83f061c28ce477') in 0.022626 seconds 
+  Import took 0.059349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/CraftingTable.prefab
+  artifactKey: Guid(43ab87d22afd84af493c3187c975107e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/CraftingTable.prefab using Guid(43ab87d22afd84af493c3187c975107e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cf8002e1b5336cc1068a2687c94b9c') in 0.143160 seconds 
+  Import took 0.178953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Board2.prefab
+  artifactKey: Guid(8a39d6901220e4e789f56eecac5806f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Board2.prefab using Guid(8a39d6901220e4e789f56eecac5806f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cd91208f57b87c0a47c303a15f397b') in 0.114102 seconds 
+  Import took 0.124108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Plate.prefab
+  artifactKey: Guid(fefbaac3c42e74783b63572d8903f6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Plate.prefab using Guid(fefbaac3c42e74783b63572d8903f6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1753f857d9de8ff93f2cd16812f2dd') in 0.078148 seconds 
+  Import took 0.086462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/PintMug.prefab
+  artifactKey: Guid(1cf82e4a657fa4d55997f0648ed0811a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/PintMug.prefab using Guid(1cf82e4a657fa4d55997f0648ed0811a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae9fdee2263e9a6d1e184c8387898a5') in 0.042691 seconds 
+  Import took 0.072289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/RopeSlackLength.prefab
+  artifactKey: Guid(abeea0a7b0658482b95fed81e2971c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/RopeSlackLength.prefab using Guid(abeea0a7b0658482b95fed81e2971c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5481448d23a8ed5480955a298276c8c') in 0.054637 seconds 
+  Import took 0.094530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Smithtool3.prefab
+  artifactKey: Guid(d40670213d64d446399a82f7447dac35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Smithtool3.prefab using Guid(d40670213d64d446399a82f7447dac35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491b12a43fad1fc3faa878d124415a1e') in 0.041963 seconds 
+  Import took 0.053257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/ChizelTool.prefab
+  artifactKey: Guid(6993ff51f84e5457992dcdd6ccda7788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/ChizelTool.prefab using Guid(6993ff51f84e5457992dcdd6ccda7788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a4aebd9113d888895ac505c4fa369f') in 0.021659 seconds 
+  Import took 0.034703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/TanningRack.prefab
+  artifactKey: Guid(703fb2f99966a42d2819e7ad09d465e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/TanningRack.prefab using Guid(703fb2f99966a42d2819e7ad09d465e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1879e21f41d891054b3e567ec785551') in 0.026611 seconds 
+  Import took 0.068066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Smithtool1.prefab
+  artifactKey: Guid(27f9374e198a34561a9f04d6340b9b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Smithtool1.prefab using Guid(27f9374e198a34561a9f04d6340b9b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29e29681c2175379be12cd6252c54a5') in 0.050222 seconds 
+  Import took 0.059028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/PoorTable.prefab
+  artifactKey: Guid(5009277452fa54892a9b13240d0076fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/PoorTable.prefab using Guid(5009277452fa54892a9b13240d0076fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314762312c7ba57b894b660b11bea4c6') in 0.034212 seconds 
+  Import took 0.080112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/EmptyBecker.prefab
+  artifactKey: Guid(3822df6d434f941eeb4c22d3889ee1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/EmptyBecker.prefab using Guid(3822df6d434f941eeb4c22d3889ee1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7c30b5e69adfa811d52971a45b554e') in 0.076813 seconds 
+  Import took 0.102584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/SmithingHammer.prefab
+  artifactKey: Guid(9d790e626132f4f3da33f97e89491ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/SmithingHammer.prefab using Guid(9d790e626132f4f3da33f97e89491ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb6a2cb9dbe56e68a5fb8bc79bc59d5') in 0.042615 seconds 
+  Import took 0.062675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Horseshoe.prefab
+  artifactKey: Guid(fe08290360e0d4407a222e62cd6ad3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Horseshoe.prefab using Guid(fe08290360e0d4407a222e62cd6ad3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2562ff0e38ba61c43d13eefcce05813') in 0.046013 seconds 
+  Import took 0.059244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Forgeshovel.prefab
+  artifactKey: Guid(3b93b5e1490544e968467686126aa217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Forgeshovel.prefab using Guid(3b93b5e1490544e968467686126aa217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1c15471817ddebce39b1691593946e') in 0.044282 seconds 
+  Import took 0.075681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/PoorChair.prefab
+  artifactKey: Guid(b1d9150dd13a74bfe87b104fbf9fec9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/PoorChair.prefab using Guid(b1d9150dd13a74bfe87b104fbf9fec9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d373a2d1b490d53354f6095dbb5b93') in 0.045830 seconds 
+  Import took 0.069999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/WoodenPost.prefab
+  artifactKey: Guid(51508460884c94c04bec7d1925edbd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/WoodenPost.prefab using Guid(51508460884c94c04bec7d1925edbd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4310b14aab6fb1de8a9f47ddccb017e') in 0.028970 seconds 
+  Import took 0.047299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Bowl.prefab
+  artifactKey: Guid(fc7e1ce5387a34532858df97e406a756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Bowl.prefab using Guid(fc7e1ce5387a34532858df97e406a756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865f7514bb55b81034f321a2b14b705b') in 0.056655 seconds 
+  Import took 0.091889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/SmallStool.prefab
+  artifactKey: Guid(34a8898015f104263a16f20d65daf97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/SmallStool.prefab using Guid(34a8898015f104263a16f20d65daf97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beabce768095f17efc030ff93abba96d') in 0.030488 seconds 
+  Import took 0.043436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/MeadBottle.prefab
+  artifactKey: Guid(e88e82960867447c189ab65e358e25f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/MeadBottle.prefab using Guid(e88e82960867447c189ab65e358e25f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fc9dff9677f2cea83a8cc49947f08e') in 0.050667 seconds 
+  Import took 0.087602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/DeerSkull.prefab
+  artifactKey: Guid(2fff6ec7294274557a05c4d80d02630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/DeerSkull.prefab using Guid(2fff6ec7294274557a05c4d80d02630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c444e434b1c7c11142ba3cd59b05b7') in 0.284077 seconds 
+  Import took 0.299076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/DeerPelt.prefab
+  artifactKey: Guid(bacd4ab032244497684ffa25c6130707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/DeerPelt.prefab using Guid(bacd4ab032244497684ffa25c6130707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2886130210f25650dd7362eeff91445') in 0.193125 seconds 
+  Import took 0.226220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Smithtool2.prefab
+  artifactKey: Guid(149d2d56951e84414a271751258b5e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Smithtool2.prefab using Guid(149d2d56951e84414a271751258b5e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215e60b5971cc8df3b6d5b87aec0296b') in 0.050115 seconds 
+  Import took 0.078685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/WoodenPail.prefab
+  artifactKey: Guid(a91a02302419e41ac9cb773673b4fe91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/WoodenPail.prefab using Guid(a91a02302419e41ac9cb773673b4fe91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2e0ece20ef3246eba4641dc1feb7d9') in 0.162180 seconds 
+  Import took 0.178276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Board.prefab
+  artifactKey: Guid(03ddffda5acd3458e95a0fe2afb74eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Board.prefab using Guid(03ddffda5acd3458e95a0fe2afb74eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3514a3465db7bf128418f9142ae373') in 0.042896 seconds 
+  Import took 0.090934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/LongCrate.prefab
+  artifactKey: Guid(1e38f30301a46445081b7575c0962d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/LongCrate.prefab using Guid(1e38f30301a46445081b7575c0962d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b4f222df2c9e7bd263871a9c8fff08') in 0.093410 seconds 
+  Import took 0.108351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/RawSteelBillet.prefab
+  artifactKey: Guid(92c0a1435766c4a64a1edbe51fdec330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/RawSteelBillet.prefab using Guid(92c0a1435766c4a64a1edbe51fdec330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5622417008f0bd7bb2bd684544655d') in 0.069892 seconds 
+  Import took 0.108756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/UtilityRope.prefab
+  artifactKey: Guid(21e30f3cd1c1c4619b561f2eaa88a562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/UtilityRope.prefab using Guid(21e30f3cd1c1c4619b561f2eaa88a562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69a5f2c5ab584e5380584f68f1b1c92') in 0.082155 seconds 
+  Import took 0.095285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000827 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/HempBecker.prefab
+  artifactKey: Guid(b98218511986842f9950dff8853fa57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/HempBecker.prefab using Guid(b98218511986842f9950dff8853fa57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2371d6ac91ee467e5a3481561be4c3e1') in 0.112440 seconds 
+  Import took 0.128488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Cup.prefab
+  artifactKey: Guid(f8accfdef2259432ea26ce4960a5a899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Cup.prefab using Guid(f8accfdef2259432ea26ce4960a5a899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8126d4c0d3b35158547a24cfb96004b6') in 0.041648 seconds 
+  Import took 0.075632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/SmallFirePit.prefab
+  artifactKey: Guid(91c2472d52da34e86a40f658cd7ec338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/SmallFirePit.prefab using Guid(91c2472d52da34e86a40f658cd7ec338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117d60bb543cc1df09f92448ca081873') in 0.041933 seconds 
+  Import took 0.061328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Barrell2.prefab
+  artifactKey: Guid(4ae2817d536344833b76a34cb84ab307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Barrell2.prefab using Guid(4ae2817d536344833b76a34cb84ab307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856815fd3d9474db1646c710a044460c') in 0.071350 seconds 
+  Import took 0.108816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Barrell3.prefab
+  artifactKey: Guid(061e3657254424e418e8d7d43d0de255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Barrell3.prefab using Guid(061e3657254424e418e8d7d43d0de255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7077036c3052e2203b0387babbf8a39c') in 0.126867 seconds 
+  Import took 0.139630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Foxpelt.prefab
+  artifactKey: Guid(c9dcf47f12d574dd39ad25c7e9345f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Foxpelt.prefab using Guid(c9dcf47f12d574dd39ad25c7e9345f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe7937adebecb09b9a2a893d61a8b20') in 0.192044 seconds 
+  Import took 0.247486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Forge.prefab
+  artifactKey: Guid(98fab9660836e4763ae7ed8bf6765b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Prefabs/Forge.prefab using Guid(98fab9660836e4763ae7ed8bf6765b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a54abea4c7efc84fd9057ac4b5c0889') in 0.132628 seconds 
+  Import took 0.183311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 380.024761 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/foxpelt 1.png
+  artifactKey: Guid(7bb2c44541ca74e639a65c218620cd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/foxpelt 1.png using Guid(7bb2c44541ca74e639a65c218620cd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af22219cfd4e1832f430d2a628249ecd') in 0.611146 seconds 
+  Import took 0.622370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/WeatherBoards 1.png
+  artifactKey: Guid(e2c323f56047a44129d3efb0c1c88cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/WeatherBoards 1.png using Guid(e2c323f56047a44129d3efb0c1c88cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18e7aa44991e4802c33bc845117317e') in 0.186075 seconds 
+  Import took 0.227884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/planks.png
+  artifactKey: Guid(5269de73a9d034a6cac2a7947a94ee0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/planks.png using Guid(5269de73a9d034a6cac2a7947a94ee0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20379b5c79eeae0023717642bd24f78a') in 0.104719 seconds 
+  Import took 0.113480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/PlankTexture.png
+  artifactKey: Guid(f4d29e08c7f694976b633e1dbed31df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/PlankTexture.png using Guid(f4d29e08c7f694976b633e1dbed31df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41300ee375a32a36d69bd200d6829828') in 0.375559 seconds 
+  Import took 0.427050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_OldWoodPlanks_3.5x3.5_1024_albedo.tif
+  artifactKey: Guid(5bcc789971d3e4bf8b68a7ea6f667dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_OldWoodPlanks_3.5x3.5_1024_albedo.tif using Guid(5bcc789971d3e4bf8b68a7ea6f667dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23928a3229e6990463d550fdedecab85') in 0.341902 seconds 
+  Import took 0.353295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_RoughWood_2x2_1024_albedo.tif
+  artifactKey: Guid(843baccd8fde341ad8223d2f60c44d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_RoughWood_2x2_1024_albedo.tif using Guid(843baccd8fde341ad8223d2f60c44d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63686e8b0b05cbb1c4983f828eb6367c') in 0.088233 seconds 
+  Import took 0.097202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Metal_SteelBrushed_1K_albedo 1.tif
+  artifactKey: Guid(a6d683b74609241259d89bfb9a4afec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Metal_SteelBrushed_1K_albedo 1.tif using Guid(a6d683b74609241259d89bfb9a4afec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338e61dff6e81dfcfe8071760b3a659a') in 0.098108 seconds 
+  Import took 0.109783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Bones0053_S 1.png
+  artifactKey: Guid(4ce08f53fd7b644bda836108f7b6de0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Bones0053_S 1.png using Guid(4ce08f53fd7b644bda836108f7b6de0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97c0e8bd5421c6e7f91d3b348e818a6') in 0.127501 seconds 
+  Import took 0.140251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_TreeBark5_1024_albedo.tif
+  artifactKey: Guid(276dd62b186364977a61327e550b14d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_TreeBark5_1024_albedo.tif using Guid(276dd62b186364977a61327e550b14d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd191769c807121e93bd11da4169884c') in 0.075474 seconds 
+  Import took 0.105440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/RockWallText.png
+  artifactKey: Guid(19a4fa8673955450f9599cff6f96157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/RockWallText.png using Guid(19a4fa8673955450f9599cff6f96157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792bfda72a12debe13e3abad93e54bf1') in 0.126521 seconds 
+  Import took 0.137210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_WoodPlanksOld0282_2_seamless_S.png
+  artifactKey: Guid(2351d0ea95a0541138a15895afd6c3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_WoodPlanksOld0282_2_seamless_S.png using Guid(2351d0ea95a0541138a15895afd6c3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786a0dca2e87bda3c0d7bb4d3c24168a') in 0.055065 seconds 
+  Import took 0.068955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Leather0002_1_seamless_S.png
+  artifactKey: Guid(788a48696e2c5462bbc463862d23fe15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Leather0002_1_seamless_S.png using Guid(788a48696e2c5462bbc463862d23fe15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df671ae4931d01ff5e6cb3b9ecf061d7') in 0.149055 seconds 
+  Import took 0.185490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Metal_SteelPitted_1K_albedo.tif
+  artifactKey: Guid(dc8a44305a6664ba2ae3622c18dbb96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Metal_SteelPitted_1K_albedo.tif using Guid(dc8a44305a6664ba2ae3622c18dbb96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f232b5e5de901c79cfe6eda60bbbd9') in 0.098973 seconds 
+  Import took 0.110420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_TreeBark5_1024_normal.tif
+  artifactKey: Guid(e19e7a79aa58346f7a284fd5676a9695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_TreeBark5_1024_normal.tif using Guid(e19e7a79aa58346f7a284fd5676a9695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e817798fe79e3ec515a46b88c8ff7f') in 0.088646 seconds 
+  Import took 0.099147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/seamlessbone 1.png
+  artifactKey: Guid(60fe8a189ed4f43e58b8e7fab2ceb1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/seamlessbone 1.png using Guid(60fe8a189ed4f43e58b8e7fab2ceb1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7fba2d2d016892656178a756ab201c') in 0.106698 seconds 
+  Import took 0.140580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_WoodPlanksBare0017_S.png
+  artifactKey: Guid(e3a11376050254c69a86d6d6b1668f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_WoodPlanksBare0017_S.png using Guid(e3a11376050254c69a86d6d6b1668f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9a7beefb2089ea9738d4f10c0bc305') in 0.052527 seconds 
+  Import took 0.085926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/seamlessbone.png
+  artifactKey: Guid(a205a511966db49feb3da51291486667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/seamlessbone.png using Guid(a205a511966db49feb3da51291486667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1858c456ddec479b85b6da9f20f4570') in 0.033535 seconds 
+  Import took 0.060406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Rust0222_2_seamless_S 1.png
+  artifactKey: Guid(c7cb67d5406a348afbf86123e52b73b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Rust0222_2_seamless_S 1.png using Guid(c7cb67d5406a348afbf86123e52b73b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7df5a627b5447174d04c04fda2d649') in 0.080501 seconds 
+  Import took 0.091569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Metal_SteelRough_1K_albedo.tif
+  artifactKey: Guid(a1a5f2dd2db6041ff9caa7a965326a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Metal_SteelRough_1K_albedo.tif using Guid(a1a5f2dd2db6041ff9caa7a965326a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e491c1b08d57d91daf1e57a9c5607c6e') in 0.050482 seconds 
+  Import took 0.071687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_WoodFine0059_11_seamless_S.png
+  artifactKey: Guid(9702f2f6b6ade453a99096713121ef2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_WoodFine0059_11_seamless_S.png using Guid(9702f2f6b6ade453a99096713121ef2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b70d4278c9a45fef87e1abdb7d32aa5') in 0.054045 seconds 
+  Import took 0.092751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Moss0136_1_seamless_S.png
+  artifactKey: Guid(997afa0a982c34c9a81e6665a0d74700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Moss0136_1_seamless_S.png using Guid(997afa0a982c34c9a81e6665a0d74700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20e83538c4bdcb301db598f6a3d7a28') in 0.057171 seconds 
+  Import took 0.069139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_WoodPlanksOld0250_3_seamless_S 1.png
+  artifactKey: Guid(4f2e7830b11394256ab6cb762e9c2b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_WoodPlanksOld0250_3_seamless_S 1.png using Guid(4f2e7830b11394256ab6cb762e9c2b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04d2cbaeb27bd437c66f97e4acfbdd3') in 0.058352 seconds 
+  Import took 0.068273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_BrickJapanese0071_2_seamless_S.png
+  artifactKey: Guid(e4de7480df7764bfa9e3b18cfd7238ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_BrickJapanese0071_2_seamless_S.png using Guid(e4de7480df7764bfa9e3b18cfd7238ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f46219a7a0cb9cc680a164013a7970') in 0.042235 seconds 
+  Import took 0.057777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_WoodPlanksOld0250_3_seamless_S.png
+  artifactKey: Guid(55c3c2aa8fbb1455f80aab6e3ab67b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_WoodPlanksOld0250_3_seamless_S.png using Guid(55c3c2aa8fbb1455f80aab6e3ab67b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49af59653968f66cc6c3899a269c6d1') in 0.054851 seconds 
+  Import took 0.081663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_ManholeCover_1024_normal.tif
+  artifactKey: Guid(9554ccb3cb1694c4e82c7eda82192256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_ManholeCover_1024_normal.tif using Guid(9554ccb3cb1694c4e82c7eda82192256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89e3a4feba336b8346573fb0fc7f017') in 0.070307 seconds 
+  Import took 0.082520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Rust0222_2_seamless_S.png
+  artifactKey: Guid(b03080100cf77445fa6dcc35e1d25c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Rust0222_2_seamless_S.png using Guid(b03080100cf77445fa6dcc35e1d25c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa98e4297e13f8fdaf07a01d0d7da10') in 0.084933 seconds 
+  Import took 0.104738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_WoodFine0059_11_seamless_S 1.png
+  artifactKey: Guid(5ec550e050c62492d9e0e836594d2ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_WoodFine0059_11_seamless_S 1.png using Guid(5ec550e050c62492d9e0e836594d2ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109cd823e9f6d34256bfad19d4288938') in 0.068131 seconds 
+  Import took 0.077505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Metal_Medieval_512_albedo.tif
+  artifactKey: Guid(e08c8b0d89c7543d5a774d12251dd08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Metal_Medieval_512_albedo.tif using Guid(e08c8b0d89c7543d5a774d12251dd08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48af7356fe9fc81b661efe9d4467860e') in 0.034717 seconds 
+  Import took 0.044028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_SoilSand0204_1_seamless_S. 1.png
+  artifactKey: Guid(f2049bb8d8a6f436381b981b660090db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_SoilSand0204_1_seamless_S. 1.png using Guid(f2049bb8d8a6f436381b981b660090db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e647eac1549242ce2d34440466661ce4') in 0.071633 seconds 
+  Import took 0.091795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_RoughWood_2x2_1024_albedo 1.tif
+  artifactKey: Guid(38650ed0d32dd47eba678186aeffab2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_RoughWood_2x2_1024_albedo 1.tif using Guid(38650ed0d32dd47eba678186aeffab2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f117f689da081270646ec26acdbecbc6') in 0.064046 seconds 
+  Import took 0.073559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_WoodPlanksBare0017_S 1.png
+  artifactKey: Guid(908725afe1f5142beb14a013fcdabe73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_WoodPlanksBare0017_S 1.png using Guid(908725afe1f5142beb14a013fcdabe73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122546f366fdf72b687b4a300d442098') in 0.101915 seconds 
+  Import took 0.112787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_WoodPlanksOld0282_2_seamless_S 1.png
+  artifactKey: Guid(f7d312d3bd92e48cd886eda6cf3a2b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_WoodPlanksOld0282_2_seamless_S 1.png using Guid(f7d312d3bd92e48cd886eda6cf3a2b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90f198b4a19e02e297963334a07d4f6') in 0.118327 seconds 
+  Import took 0.126271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Moss0136_1_seamless_S 1.png
+  artifactKey: Guid(f343561f4a1ba40879b19f8232cca9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Moss0136_1_seamless_S 1.png using Guid(f343561f4a1ba40879b19f8232cca9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78d48ac5d42aa88916ee516cff992ad') in 0.073256 seconds 
+  Import took 0.082284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/RockWallText 1.png
+  artifactKey: Guid(0bed7dbf7e3964395bbb6d88c41db0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/RockWallText 1.png using Guid(0bed7dbf7e3964395bbb6d88c41db0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1af2b7ffe5a30d2cfb49589d95b862') in 0.073734 seconds 
+  Import took 0.089733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/SeamlessStraw 1.png
+  artifactKey: Guid(dbb3bd68d4fdd4dcfbd31b509e394538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/SeamlessStraw 1.png using Guid(dbb3bd68d4fdd4dcfbd31b509e394538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a103dd6809f8581fcaba48039c171e47') in 0.032175 seconds 
+  Import took 0.044776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Various0236_2_seamless_S.png
+  artifactKey: Guid(cb92d3ca5baaa4811924f36cb6ad83b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Various0236_2_seamless_S.png using Guid(cb92d3ca5baaa4811924f36cb6ad83b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25366965a358d001ceeaa27ca2479ddf') in 0.047855 seconds 
+  Import took 0.106260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/foxpelt 1.png
+  artifactKey: Guid(7bb2c44541ca74e639a65c218620cd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/foxpelt 1.png using Guid(7bb2c44541ca74e639a65c218620cd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af22219cfd4e1832f430d2a628249ecd') in 0.022746 seconds 
+  Import took 0.034203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Metal_Medieval_512_albedo 1.tif
+  artifactKey: Guid(92363003105da4a189e35d7f2f5c167b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Metal_Medieval_512_albedo 1.tif using Guid(92363003105da4a189e35d7f2f5c167b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab65287627525dab8655b105108df1a2') in 0.028057 seconds 
+  Import took 0.041573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_OldWoodPlanks_3.5x3.5_1024_albedo 1.tif
+  artifactKey: Guid(8aa82dfd3aec348d59a6432642eaa0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_OldWoodPlanks_3.5x3.5_1024_albedo 1.tif using Guid(8aa82dfd3aec348d59a6432642eaa0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a36ec9b11220f6910763c19ad89317a') in 0.046020 seconds 
+  Import took 0.076468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Metal_SteelPitted_1K_albedo 1.tif
+  artifactKey: Guid(f3498da3c5c444ee1859226c50236d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Metal_SteelPitted_1K_albedo 1.tif using Guid(f3498da3c5c444ee1859226c50236d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb03511e8a3587fa5ec9481080819862') in 0.040547 seconds 
+  Import took 0.072357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/WeatherBoards.png
+  artifactKey: Guid(2443a321a5c314c94b5c7fd9087d95f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/WeatherBoards.png using Guid(2443a321a5c314c94b5c7fd9087d95f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3bb11fac6c36dd21a965287ce86aa90') in 0.055213 seconds 
+  Import took 0.063789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/smolderingember.png
+  artifactKey: Guid(677ec7cda69704cc2b24d3908323da7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/smolderingember.png using Guid(677ec7cda69704cc2b24d3908323da7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b5c6fd16b28f2f13d4ab902fc0cacd') in 0.038784 seconds 
+  Import took 0.050099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_ManholeCover_1024_albedo.tif
+  artifactKey: Guid(0ea907415f1f14a8fba18ffe26c8c0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_ManholeCover_1024_albedo.tif using Guid(0ea907415f1f14a8fba18ffe26c8c0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967d6d7c872684d7b990d01e2df29391') in 0.056910 seconds 
+  Import took 0.068839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Bones0053_S.png
+  artifactKey: Guid(4ffa6e2e51cff4da09052f3319d41d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Bones0053_S.png using Guid(4ffa6e2e51cff4da09052f3319d41d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf2730fcd8d50865e7b108302893c7e') in 0.077109 seconds 
+  Import took 0.092095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_BrickJapanese0071_2_seamless_S 1.png
+  artifactKey: Guid(854eb76861ed140779a9fb5124807fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_BrickJapanese0071_2_seamless_S 1.png using Guid(854eb76861ed140779a9fb5124807fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ab65a76b04b7e4c41501b72f20b26d') in 0.073251 seconds 
+  Import took 0.106253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Various0236_1_seamless_S.png
+  artifactKey: Guid(95cfe7bc64cdb4580a71da59f70e00a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Various0236_1_seamless_S.png using Guid(95cfe7bc64cdb4580a71da59f70e00a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6513277a131c57270c41886f493568aa') in 0.041410 seconds 
+  Import took 0.055491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/planks 1.png
+  artifactKey: Guid(01fff0bd9b25a42be998fd2e76c0f72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/planks 1.png using Guid(01fff0bd9b25a42be998fd2e76c0f72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb3a382fb1c16c819d9299df3534de7') in 0.030299 seconds 
+  Import took 0.054771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Metal_SteelRough_1K_albedo 1.tif
+  artifactKey: Guid(f62b9dd4a0a63476a8bce9c17a3a1dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Metal_SteelRough_1K_albedo 1.tif using Guid(f62b9dd4a0a63476a8bce9c17a3a1dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ffe673e679e02448e92ff8e6827243') in 0.034487 seconds 
+  Import took 0.063636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Leather0113_2_seamless_S.png
+  artifactKey: Guid(a03d2910d22e547e59aab015cb66c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Leather0113_2_seamless_S.png using Guid(a03d2910d22e547e59aab015cb66c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387c4a487cdd51123f22bad424599485') in 0.087586 seconds 
+  Import took 0.107471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Metal_SteelBrushed_1K_albedo.tif
+  artifactKey: Guid(3cb2cbb2f0000434d9d43af33c60b241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Metal_SteelBrushed_1K_albedo.tif using Guid(3cb2cbb2f0000434d9d43af33c60b241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ffd5935b257afd8cc454445b6d25c5') in 0.025296 seconds 
+  Import took 0.036926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_SoilSand0204_1_seamless_S..png
+  artifactKey: Guid(330c5cc9102a347e789379f9b02be90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_SoilSand0204_1_seamless_S..png using Guid(330c5cc9102a347e789379f9b02be90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7be7e53b2d479cffae0fa12f2caec8d') in 0.052242 seconds 
+  Import took 0.060449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/SeamlessStraw.png
+  artifactKey: Guid(08324c3c104264a3098ed8f402ab1cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/SeamlessStraw.png using Guid(08324c3c104264a3098ed8f402ab1cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817fee18edd074b15350f7a7cbcca9ac') in 0.093737 seconds 
+  Import took 0.108911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/PlankTexture 1.png
+  artifactKey: Guid(1aea60ffba5514b58882b09f2ca23b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/PlankTexture 1.png using Guid(1aea60ffba5514b58882b09f2ca23b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645b60016894528fc8a3dde0354c96cf') in 0.158649 seconds 
+  Import took 0.188030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Leather0002_1_seamless_S 1.png
+  artifactKey: Guid(6dcf859d906a74ad4b183f6baaaae31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Leather0002_1_seamless_S 1.png using Guid(6dcf859d906a74ad4b183f6baaaae31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67000d66f602627d7ec6fe84d859295d') in 0.047555 seconds 
+  Import took 0.060677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Leather0113_2_seamless_S 1.png
+  artifactKey: Guid(2a529f4410fee4886afe90fbd5574bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Medieval Props Asset Pack/Textures/TexturesCom_Leather0113_2_seamless_S 1.png using Guid(2a529f4410fee4886afe90fbd5574bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42678fe84adc5a5fb8521e82a1e52415') in 0.096190 seconds 
+  Import took 0.136738 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.060270 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 9.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 18.529 seconds
+Domain Reload Profiling:
+	ReloadAssembly (18881ms)
+		BeginReloadAssembly (13760ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (713ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (3ms)
+			CreateAndSetChildDomain (9163ms)
+		EndReloadAssembly (4350ms)
+			LoadAssemblies (906ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1331ms)
+			ReleaseScriptCaches (105ms)
+			RebuildScriptCaches (122ms)
+			SetupLoadedEditorAssemblies (1761ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (16ms)
+				RefreshPlugins (9ms)
+				BeforeProcessingInitializeOnLoad (336ms)
+				ProcessInitializeOnLoadAttributes (1335ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4279 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.5 MB.
+System memory in use after: 185.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4965.
+Total: 167.315700 ms (FindLiveObjects: 9.709800 ms CreateObjectMapping: 0.408600 ms MarkObjects: 58.756100 ms  DeleteObjects: 98.438800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014562 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.750 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4751ms)
+		BeginReloadAssembly (1057ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (57ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (509ms)
+		EndReloadAssembly (3525ms)
+			LoadAssemblies (574ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1207ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (1542ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (439ms)
+				ProcessInitializeOnLoadAttributes (1069ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4279 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.5 MB.
+System memory in use after: 185.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4967.
+Total: 5.490600 ms (FindLiveObjects: 1.158800 ms CreateObjectMapping: 0.319500 ms MarkObjects: 3.875100 ms  DeleteObjects: 0.123200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
