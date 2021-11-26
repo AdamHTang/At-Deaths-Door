@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿// EDITED BY ADAM TANG ON 11/25/2021
+// Description of Edit - Added Sprint Timer with Discharge and Recharge
+
+using UnityEngine;
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 using UnityEngine.InputSystem;
 #endif
@@ -11,6 +14,7 @@ namespace StarterAssets
 	[RequireComponent(typeof(CharacterController))]
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 	[RequireComponent(typeof(PlayerInput))]
+
 #endif
 	public class FirstPersonController : MonoBehaviour
 	{
@@ -23,6 +27,7 @@ namespace StarterAssets
 		public float RotationSpeed = 1.0f;
 		[Tooltip("Acceleration and deceleration")]
 		public float SpeedChangeRate = 10.0f;
+
 
 		[Space(10)]
 		[Tooltip("The height the player can jump")]
@@ -73,6 +78,13 @@ namespace StarterAssets
 
 		private const float _threshold = 0.01f;
 
+		private bool isSprinting = false;
+		public float maxSprintTime = 100000.0f;
+		public float sprintTime = 100000.0f;
+		public float sprintRechargeRate = 0.5f;
+
+		public HealthBar staminaBar;
+
 		private void Awake()
 		{
 			// get a reference to our main camera
@@ -80,6 +92,8 @@ namespace StarterAssets
 			{
 				_mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
 			}
+			sprintTime = maxSprintTime;
+			staminaBar.SetMaxHealth(maxSprintTime);
 		}
 
 		private void Start()
@@ -132,8 +146,31 @@ namespace StarterAssets
 
 		private void Move()
 		{
+			if (_input.sprint && sprintTime >= 0f && Grounded)
+			{
+				isSprinting = true;
+			}
+			else
+			{
+				isSprinting = false;
+			}
+
+			if (_input.sprint && sprintTime >=0 && Grounded)
+			{
+				sprintTime -= 1f;
+				staminaBar.SetHealth(sprintTime);
+			}
+			else if (!_input.sprint && sprintTime<=maxSprintTime && Grounded)
+			{
+				sprintTime += sprintRechargeRate;
+				staminaBar.SetHealth(sprintTime);
+			}
+
+
+
 			// set target speed based on move speed, sprint speed and if sprint is pressed
-			float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
+			float targetSpeed = isSprinting ? SprintSpeed : MoveSpeed;
+
 
 			// a simplistic acceleration and deceleration designed to be easy to remove, replace, or iterate upon
 
@@ -244,4 +281,5 @@ namespace StarterAssets
 			Gizmos.DrawSphere(new Vector3(transform.position.x, transform.position.y - GroundedOffset, transform.position.z), GroundedRadius);
 		}
 	}
+
 }

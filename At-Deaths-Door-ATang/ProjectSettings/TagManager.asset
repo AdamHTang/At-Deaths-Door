@@ -6,6 +6,9 @@ TagManager:
   tags:
   - CinemachineTarget
   - Pickup
+  - HealthPotion
+  - StaminaPotion
+  - 'Invisible '
   layers:
   - Default
   - TransparentFX

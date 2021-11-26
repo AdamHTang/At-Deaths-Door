@@ -48,4 +48,9 @@ public class EntityHealth : MonoBehaviour
     {
         return _HealthPoints;
     }
+
+    public float getMaxHealth()
+    {
+        return maxHealth;
+    }
 }
