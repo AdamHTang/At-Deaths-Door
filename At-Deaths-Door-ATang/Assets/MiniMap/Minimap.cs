@@ -13,12 +13,13 @@ using UnityEngine;
 public class Minimap : MonoBehaviour
 {
     public Transform player;
+    public float yAmount = 2.875f;
 
     // Update is called once per frame
     void LateUpdate()
     {
         Vector3 newPosition = player.position;
-        newPosition.y = player.position.y + 2.875f;
+        newPosition.y = player.position.y + yAmount;
         transform.position = newPosition;
 
         transform.rotation = Quaternion.Euler(90f, player.eulerAngles.y, 0f);

@@ -1,7 +1,7 @@
 /*
  * Created By: Adam Tang
  * Date Created: 11/27/2021
- * Date Modified: 11/27/2021
+ * Date Modified: 12/2/2021
  * Description: Determines if the entity sees another entity.
  * 
  */
@@ -21,7 +21,8 @@ public class SightLine : MonoBehaviour
     public bool IsTargetInSightLine { get; set; } = false;
     public Vector3 LastKnowSighting { get; set; } = Vector3.zero;
 
-    private SphereCollider ThisCollider;
+    public SphereCollider ThisCollider;
+    public SphereCollider killCollider;
 
     void Awake()
     {
@@ -63,7 +64,7 @@ public class SightLine : MonoBehaviour
     private bool TargetInFOV(Transform Target)
     {
         Vector3 DirToTarget = (Target.transform.position - EyePoint.transform.position);
-        float Angle = Vector3.Angle(EyePoint.transform.forward, DirToTarget);
+        float Angle = Vector3.Angle(EyePoint.transform.up, DirToTarget);
 
         if (Angle <= FieldOfView)
         {
@@ -74,12 +75,31 @@ public class SightLine : MonoBehaviour
         return false;
     }
 
+    private bool TargetIsTooClose(Transform Target)
+    {
+        RaycastHit Info;
+        Vector3 DirToTarget = (Target.transform.position - EyePoint.transform.position).normalized;
+        if (Physics.Raycast(EyePoint.position, DirToTarget, out Info, killCollider.radius))
+        {
+            if (Info.transform.CompareTag(TargetTag))
+            {
+                Debug.Log("Triggered on kill collider");
+                return true;
+            }
+        }
+
+        return false;
+    }
+
     void UpdateSight(Transform Target)
     {
-        IsTargetInSightLine = (HasClearLineofSightToTarget(Target) && TargetInFOV(Target));
+        IsTargetInSightLine = ((HasClearLineofSightToTarget(Target) && TargetInFOV(Target)) || TargetIsTooClose(Target));
 
+        Vector3 DirToTarget = (Target.transform.position - EyePoint.transform.position).normalized;
+        Debug.DrawRay(EyePoint.position, DirToTarget, Color.red, 1, true);
         if (IsTargetInSightLine)
         {
+
             Debug.Log("I see you.");
             LastKnowSighting = Target.position;
         }

@@ -12,7 +12,7 @@ using UnityEngine;
 public class Selector : MonoBehaviour
 {
 
-    public Camera camera;
+    public new Camera camera;
     public GameObject player;
     public Inventory inventory;
 
