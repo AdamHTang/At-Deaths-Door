@@ -10,7 +10,7 @@ public class ChaseState : MonoBehaviour, IFSMState
     public float Acceleration = 3.0f;
     public float AngularSpeed = 720.0f;
     public float FOV = 60.0f;
-    public string AnimationRunParamName = "Chase";
+    public string AnimationChaseParamName = "Chase";
     public float chaseTimer = 10.0f;
     public Transform player;
 
@@ -39,8 +39,9 @@ public class ChaseState : MonoBehaviour, IFSMState
         ThisAgent.speed = MovementSpeed;
         ThisAgent.acceleration = Acceleration;
         ThisAgent.angularSpeed = AngularSpeed;
+        ThisAnimator.SetBool(AnimationChaseParamName, true);
         isChasing = true;
-        ThisAnimator.SetBool(AnimationRunParamName, true);
+        
     }
 
     public void OnExit()

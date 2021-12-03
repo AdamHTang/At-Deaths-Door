@@ -94,12 +94,12 @@ namespace StarterAssets
 			}
 			sprintTime = maxSprintTime;
 			staminaBar.SetMaxHealth(maxSprintTime);
+			_controller = GetComponent<CharacterController>();
+			_input = GetComponent<StarterAssetsInputs>();
 		}
 
 		private void Start()
 		{
-			_controller = GetComponent<CharacterController>();
-			_input = GetComponent<StarterAssetsInputs>();
 
 			// reset our timeouts on start
 			_jumpTimeoutDelta = JumpTimeout;
