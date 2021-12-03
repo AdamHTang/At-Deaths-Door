@@ -11,7 +11,7 @@ using UnityEngine;
 
 public class Interact : MonoBehaviour
 {
-    private Renderer renderer;
+    private new Renderer renderer;
 
     void Start()
     {

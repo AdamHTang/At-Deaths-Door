@@ -8,7 +8,7 @@ public class PatrolState : MonoBehaviour, IFSMState
     public float MovementSpeed = 1.5f;
     public float Acceleration = 2.0f;
     public float AngularSpeed = 360.0f;
-    public string AnimationRunParamName = "Patrol";
+    public string AnimationRunParamName = "Chase";
 
     public FSMStateType StateName { get { return FSMStateType.Patrol; } }
 

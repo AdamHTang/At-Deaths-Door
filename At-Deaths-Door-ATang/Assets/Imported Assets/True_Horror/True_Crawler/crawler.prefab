@@ -259,8 +259,8 @@ GameObject:
   - component: {fileID: 4973280238224715161}
   - component: {fileID: 4973280238224715164}
   - component: {fileID: 8601018965930586950}
-  - component: {fileID: 4973280238224715165}
   - component: {fileID: 4973280238224715160}
+  - component: {fileID: 4973280238224715165}
   - component: {fileID: 1900370386354666450}
   - component: {fileID: 3549177913245822202}
   - component: {fileID: 1933577352841466680}
@@ -363,23 +363,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4973280238224715165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4973280236842578687}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a88bf2260d31d3d4ab7c8824851f3529, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EyePoint: {fileID: 0}
-  TargetTag: Player
-  FieldOfView: 65
-  ThisCollider: {fileID: 4973280238224715164}
-  killCollider: {fileID: 8601018965930586950}
 --- !u!195 &4973280238224715160
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -402,6 +385,23 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 1
   m_ObstacleAvoidanceType: 4
+--- !u!114 &4973280238224715165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4973280236842578687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88bf2260d31d3d4ab7c8824851f3529, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EyePoint: {fileID: 0}
+  TargetTag: Player
+  FieldOfView: 65
+  ThisCollider: {fileID: 4973280238224715164}
+  killCollider: {fileID: 8601018965930586950}
 --- !u!114 &1900370386354666450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -453,6 +453,8 @@ MonoBehaviour:
   AngularSpeed: 1080
   FOV: 65
   AnimationRunParamName: Chase
+  chaseTimer: 10
+  player: {fileID: 0}
 --- !u!114 &1414512499
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -11,7 +11,11 @@ public class ChaseState : MonoBehaviour, IFSMState
     public float AngularSpeed = 720.0f;
     public float FOV = 60.0f;
     public string AnimationRunParamName = "Chase";
+    public float chaseTimer = 10.0f;
+    public Transform player;
 
+    private float timeToChase;
+    private bool isChasing = false;
     private readonly float MinChaseDistance = 2.0f;
     private NavMeshAgent ThisAgent;
     private SightLine SightLine;
@@ -23,6 +27,7 @@ public class ChaseState : MonoBehaviour, IFSMState
         ThisAgent = GetComponent<NavMeshAgent>();
         SightLine = GetComponent<SightLine>();
         ThisAnimator = GetComponent<Animator>();
+        timeToChase = chaseTimer;
     }
 
     public void OnEnter()
@@ -34,7 +39,7 @@ public class ChaseState : MonoBehaviour, IFSMState
         ThisAgent.speed = MovementSpeed;
         ThisAgent.acceleration = Acceleration;
         ThisAgent.angularSpeed = AngularSpeed;
-
+        isChasing = true;
         ThisAnimator.SetBool(AnimationRunParamName, true);
     }
 
@@ -42,10 +47,12 @@ public class ChaseState : MonoBehaviour, IFSMState
     {
         SightLine.FieldOfView = InitialFOV;
         ThisAgent.isStopped = true;
+        isChasing = false;
     }
 
     public void DoAction()
     {
+       
         ThisAgent.SetDestination(SightLine.LastKnowSighting);
     }
 
@@ -55,11 +62,32 @@ public class ChaseState : MonoBehaviour, IFSMState
         {
             return FSMStateType.Attack;
         }
-        else if (!SightLine.IsTargetInSightLine)
+        else if (!isChasing)
         {
             return FSMStateType.Patrol;
         }
 
         return FSMStateType.Chase;
+    }
+
+    void Update()
+    {
+        if (timeToChase < 0.0f)
+        {
+            isChasing = false;
+        }
+
+        Debug.Log("Time to chase - " + timeToChase);
+        if (!SightLine.IsTargetInSightLine && isChasing)
+        {
+            timeToChase -= Time.deltaTime;
+            ThisAgent.SetDestination(player.transform.position);
+
+        } else if (SightLine.IsTargetInSightLine) {
+            timeToChase = chaseTimer;
+        }
+
+
+        
     }
 }
