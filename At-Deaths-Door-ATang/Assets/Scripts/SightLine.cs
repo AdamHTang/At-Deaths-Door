@@ -41,7 +41,8 @@ public class SightLine : MonoBehaviour
 
     void OnTriggerExit(Collider Other)
     {
-        if (Other.CompareTag(TargetTag)) { IsTargetInSightLine = false; }
+        if (Other.CompareTag(TargetTag)) 
+            { IsTargetInSightLine = false; }
     }
 
     private bool HasClearLineofSightToTarget(Transform Target)
@@ -93,16 +94,17 @@ public class SightLine : MonoBehaviour
 
     void UpdateSight(Transform Target)
     {
-        IsTargetInSightLine = ((HasClearLineofSightToTarget(Target) && TargetInFOV(Target)) || TargetIsTooClose(Target));
+        IsTargetInSightLine = TargetIsTooClose(Target) || (HasClearLineofSightToTarget(Target) && TargetInFOV(Target));
 
-        Vector3 DirToTarget = (Target.transform.position - EyePoint.transform.position).normalized;
-        Debug.DrawRay(EyePoint.position, DirToTarget, Color.red, 1, true);
+        Vector3 DirToTarget = (Target.transform.position - EyePoint.transform.position);
+
         if (IsTargetInSightLine)
         {
-
+            Debug.DrawRay(EyePoint.position, DirToTarget, Color.red, .01f, true);
             Debug.Log("I see you.");
             LastKnowSighting = Target.position;
         }
     }
+
 
 }

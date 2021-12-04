@@ -24,6 +24,8 @@ public class FSM : MonoBehaviour
         CurrentState.DoAction();
 
         FSMStateType TransitionState = CurrentState.ShouldTransitionToState();
+        Debug.Log("Current State is ... " + CurrentState.StateName);
+        Debug.Log("Transition State is ... " + TransitionState);
 
         if (TransitionState != CurrentState.StateName)
         {

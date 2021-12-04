@@ -34,7 +34,6 @@ public class ChaseState : MonoBehaviour, IFSMState
     {
         InitialFOV = SightLine.FieldOfView;
         SightLine.FieldOfView = FOV;
-
         ThisAgent.isStopped = false;
         ThisAgent.speed = MovementSpeed;
         ThisAgent.acceleration = Acceleration;
