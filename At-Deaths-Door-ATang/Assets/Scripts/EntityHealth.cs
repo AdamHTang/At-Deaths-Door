@@ -53,4 +53,11 @@ public class EntityHealth : MonoBehaviour
     {
         return maxHealth;
     }
+
+    void Update()
+    {
+        healthBar.SetHealth(getHealthPoints());
+    }
+
+
 }

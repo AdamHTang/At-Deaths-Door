@@ -11,6 +11,11 @@ public class AttackState : MonoBehaviour, IFSMState
     public float MaxAttackDistance = 2.0f;
     public string TargetTag = "Player";
     public float DelayBetweenAttacks = 2.0f;
+    public GameObject playerObj;
+    public float damage = 10.0f;
+
+    private EntityHealth objHealth;
+    private float attackTimer;
 
     private NavMeshAgent ThisAgent;
     private Animator ThisAnimator;
@@ -22,6 +27,8 @@ public class AttackState : MonoBehaviour, IFSMState
         ThisAgent = GetComponent<NavMeshAgent>();
         ThisAnimator = GetComponent<Animator>();
         Target = GameObject.FindGameObjectWithTag(TargetTag).transform;
+        objHealth = playerObj.GetComponent<EntityHealth>();
+        attackTimer = 0.0f;
     }
 
     public void OnEnter()
@@ -38,23 +45,28 @@ public class AttackState : MonoBehaviour, IFSMState
 
     public void DoAction()
     {
-        IsAttacking = Vector3.Distance(Target.position, transform.position) < MaxAttackDistance;
+        IsAttacking = (Vector3.Distance(Target.position, transform.position) < MaxAttackDistance) && (attackTimer < 0.0f);
 
         if (!IsAttacking)
         {
+            attackTimer -= Time.deltaTime;
             ThisAgent.isStopped = false;
             ThisAgent.SetDestination(Target.position);
+        }
+        else { 
+            objHealth.HealthPoints -= damage;
+            attackTimer = DelayBetweenAttacks;
         }
 
     }
 
     public FSMStateType ShouldTransitionToState()
     {
-        if (Vector3.Distance(Target.position, transform.position) > EscapeDistance)
+        if ((Vector3.Distance(Target.position, transform.position) > EscapeDistance) || (attackTimer < 0.0f))
         {
             return FSMStateType.Chase;
         }
-
+        
         return FSMStateType.Attack;
     }
 
@@ -65,13 +77,11 @@ public class AttackState : MonoBehaviour, IFSMState
             if (IsAttacking)
             {
                 Debug.Log("Attack Player");
-
                 ThisAnimator.SetTrigger(AnimationAttackParamName);
                 ThisAgent.isStopped = true;
 
                 yield return new WaitForSeconds(DelayBetweenAttacks);
             }
-
             yield return null;
         }
     }
