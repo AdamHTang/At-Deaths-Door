@@ -9,6 +9,8 @@ TagManager:
   - HealthPotion
   - StaminaPotion
   - 'Invisible '
+  - Key
+  - Lock
   layers:
   - Default
   - TransparentFX

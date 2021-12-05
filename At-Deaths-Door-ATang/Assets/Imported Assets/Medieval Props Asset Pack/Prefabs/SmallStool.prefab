@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 4594743941246828}
   - component: {fileID: 33811764928622780}
   - component: {fileID: 23381736439449412}
-  m_Layer: 0
+  - component: {fileID: 2798246132034006465}
+  m_Layer: 7
   m_Name: SmallStool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,3 +82,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2798246132034006465
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622842316782628}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5778545, y: 0.36086857, z: 0.4027536}
+  m_Center: {x: 0.0014104992, y: 0.18221158, z: -0.0056665316}

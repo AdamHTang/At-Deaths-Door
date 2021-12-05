@@ -14,9 +14,9 @@ public class Inventory : MonoBehaviour
 {
     private int numHealthPots;
     private int numStaminaPots;
+    public int numKeys = 0;
     public GameObject player;
-    private bool ObjItemOne;
-    private bool ObjItemTwo;
+
     private EntityHealth playerHealth;
     private FirstPersonController playerController;
 
@@ -25,11 +25,10 @@ public class Inventory : MonoBehaviour
     {
         numHealthPots = 0;
         numStaminaPots = 0;
-
+        numKeys = 0;
         playerHealth = player.GetComponent<EntityHealth>();
         playerController = player.GetComponent<FirstPersonController>();
-        ObjItemOne = false;
-        ObjItemTwo = false;
+
     }
 
     void Update()
@@ -45,25 +44,6 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    public bool hasObjItemOne()
-    {
-        return ObjItemOne;
-    }
-
-    public bool hasObjItemTwo()
-    {
-        return ObjItemTwo;
-    }
-
-    public void addObjOne()
-    {
-        ObjItemOne = true;
-    }
-
-    public void addObjTwo()
-    {
-        ObjItemTwo = true;
-    }
 
     public void addHP()
     {
@@ -73,6 +53,11 @@ public class Inventory : MonoBehaviour
     public void addSP()
     {
         numStaminaPots++;
+    }
+
+    public void addKey()
+    {
+        numKeys++;
     }
 
     public void useHP()
@@ -99,6 +84,14 @@ public class Inventory : MonoBehaviour
         }
     }
 
+    public void useKey()
+    {
+        if (numKeys > 0)
+        {
+            numKeys--;
+        }
+    }
+
     public int getHealthPots()
     {
         return numHealthPots;
@@ -107,5 +100,10 @@ public class Inventory : MonoBehaviour
     public int getStaminaPots()
     {
         return numStaminaPots;
+    }
+
+    public int getKeys()
+    {
+        return numKeys;
     }
 }

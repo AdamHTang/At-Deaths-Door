@@ -41,21 +41,27 @@ public class Selector : MonoBehaviour
                         {
                             inventory.addHP();
                             Debug.Log("Add Health Potion");
-                        } else if (hitInfo.collider.tag == "StaminaPotion")
+                            Destroy(hitInfo.collider.transform.parent.gameObject);
+                        }
+                        else if (hitInfo.collider.tag == "StaminaPotion")
                         {
                             inventory.addSP();
                             Debug.Log("Add Health Potion");
-                        } else  if (hitInfo.collider.tag == "Obj1")
+                            Destroy(hitInfo.collider.transform.parent.gameObject);
+                        }
+                        else if (hitInfo.collider.tag == "Key")
                         {
-                            inventory.addObjOne();
-                        } else if (inventory.hasObjItemOne() && hitInfo.collider.tag == "Obj2")
+                            inventory.addKey();
+                            Debug.Log("Add Key");
+                            Destroy(hitInfo.collider.transform.parent.gameObject);
+                        } else if (hitInfo.collider.tag == "Lock" && (inventory.getKeys() > 0))
                         {
-                            inventory.addObjTwo();
+                            inventory.useKey();
+                            Debug.Log("Removed Lock");
+                            Destroy(hitInfo.collider.transform.parent.gameObject);
                         }
 
-
-
-                        Destroy(hitInfo.collider.transform.parent.gameObject);
+                        
                     }
                 }
             }
