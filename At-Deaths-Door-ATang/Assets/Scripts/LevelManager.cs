@@ -13,7 +13,7 @@ public class LevelManager : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Player is in exit!");
-            SceneManager.LoadScene("YouWin");
+            SceneManager.LoadScene("Win");
         }
     }
 
