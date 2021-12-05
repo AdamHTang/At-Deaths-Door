@@ -1,7 +1,7 @@
 /*
  * Created By: Adam Tang
  * Date Created: 11/25/2021
- * Date Modified: 11/25/2021
+ * Date Modified: 12/4/2021
  * Description: Health system for entities existing in game.
  */
 
@@ -70,6 +70,7 @@ public class EntityHealth : MonoBehaviour
     void Update()
     {
         healthBar.SetHealth(getHealthPoints());
+
     }
 
 
