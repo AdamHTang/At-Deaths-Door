@@ -13,6 +13,7 @@ public class AttackState : MonoBehaviour, IFSMState
     public float DelayBetweenAttacks = 2.0f;
     public GameObject playerObj;
     public float damage = 10.0f;
+    public AudioSource attackSound;
 
     private EntityHealth objHealth;
     private float attackTimer;
@@ -54,6 +55,7 @@ public class AttackState : MonoBehaviour, IFSMState
             ThisAgent.SetDestination(Target.position);
         }
         else {
+            attackSound.Play();
             objHealth.HealthPoints -= damage;
             if (objHealth.HealthPoints > 0)
             {

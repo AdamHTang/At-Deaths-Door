@@ -48,8 +48,12 @@ public class EntityHealth : MonoBehaviour
                 fpController.SpeedChangeRate = 0.0f;
                 fpController.JumpHeight = 0.0f;
                 fpController.RotationSpeed = 0.0f;
-                gameObject.transform.localRotation = Quaternion.Euler(-90.0f, transform.localRotation.y, transform.localRotation.z);
-                death.Play();
+                gameObject.transform.rotation = Quaternion.Euler(-90.0f, transform.localRotation.y, transform.localRotation.z);
+                
+                if (HealthPoints == 0)
+                {
+                    death.Play();
+                }
 
                 if (DestroyOnDeath)
                 {

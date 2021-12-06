@@ -425,11 +425,6 @@ MonoBehaviour:
   AngularSpeed: 360
   AnimationRunParamName: Patrol
   AnimationIdleParamName: Idle
-  patrol1: {fileID: 6424568832497333396}
-  patrol2: {fileID: 4087785892452639425}
-  patrol3: {fileID: 990370787166215550}
-  maxSoundWait: 20
-  minSoundWait: 15
 --- !u!114 &3549177913245822202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -449,6 +444,7 @@ MonoBehaviour:
   DelayBetweenAttacks: 5
   playerObj: {fileID: 0}
   damage: 10
+  attackSound: {fileID: 624013483731170420}
 --- !u!114 &1933577352841466680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -468,7 +464,6 @@ MonoBehaviour:
   AnimationChaseParamName: Chase
   chaseTimer: 10
   player: {fileID: 0}
-  chaseAudio: {fileID: 8360189330369937276}
 --- !u!114 &1414512499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -878,7 +873,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 90105c98a76ad4dec9ec990d26140a70, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.1
+  m_Volume: 0.15
   m_Pitch: 1
   Loop: 0
   Mute: 0

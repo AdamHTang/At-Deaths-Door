@@ -11,8 +11,6 @@ public class PatrolState : MonoBehaviour, IFSMState
     public string AnimationRunParamName = "Chase";
     public string AnimationIdleParamName = "Idle";
 
-    private float timer;
-    private int clipNum = 0;
 
     public FSMStateType StateName { get { return FSMStateType.Patrol; } }
 

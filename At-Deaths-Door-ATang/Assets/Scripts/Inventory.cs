@@ -20,6 +20,7 @@ public class Inventory : MonoBehaviour
     public AudioSource bottlePickup;
     public AudioSource unlockSound;
     public AudioSource bottleUse;
+    public AudioSource keyPickup;
 
     private EntityHealth playerHealth;
     private FirstPersonController playerController;
@@ -51,16 +52,19 @@ public class Inventory : MonoBehaviour
 
     public void addHP()
     {
+        bottlePickup.Play();
         numHealthPots++;
     }
 
     public void addSP()
     {
+        bottlePickup.Play();
         numStaminaPots++;
     }
 
     public void addKey()
     {
+        keyPickup.Play();
         numKeys++;
     }
 
@@ -74,6 +78,7 @@ public class Inventory : MonoBehaviour
             {
                 healthAdded = playerHealth.getMaxHealth() - playerHealth.getHealthPoints();
             }
+            bottleUse.Play();
             playerHealth.HealthPoints += healthAdded;
         }
         
@@ -84,6 +89,7 @@ public class Inventory : MonoBehaviour
         if (numStaminaPots > 0 && playerController!= null)
         {
             numStaminaPots--;
+            bottleUse.Play();
             playerController.sprintTime = playerController.maxSprintTime;
         }
     }
