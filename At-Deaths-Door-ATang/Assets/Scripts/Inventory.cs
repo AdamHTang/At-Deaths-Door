@@ -17,6 +17,10 @@ public class Inventory : MonoBehaviour
     public int numKeys = 0;
     public GameObject player;
 
+    public AudioSource bottlePickup;
+    public AudioSource unlockSound;
+    public AudioSource bottleUse;
+
     private EntityHealth playerHealth;
     private FirstPersonController playerController;
 
@@ -89,6 +93,7 @@ public class Inventory : MonoBehaviour
         if (numKeys > 0)
         {
             numKeys--;
+            unlockSound.Play();
         }
     }
 

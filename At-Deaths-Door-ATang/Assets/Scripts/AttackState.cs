@@ -53,8 +53,12 @@ public class AttackState : MonoBehaviour, IFSMState
             ThisAgent.isStopped = false;
             ThisAgent.SetDestination(Target.position);
         }
-        else { 
+        else {
             objHealth.HealthPoints -= damage;
+            if (objHealth.HealthPoints > 0)
+            {
+                objHealth.playerHit();
+            }
             attackTimer = DelayBetweenAttacks;
         }
 

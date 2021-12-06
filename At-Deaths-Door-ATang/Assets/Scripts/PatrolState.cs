@@ -11,6 +11,9 @@ public class PatrolState : MonoBehaviour, IFSMState
     public string AnimationRunParamName = "Chase";
     public string AnimationIdleParamName = "Idle";
 
+    private float timer;
+    private int clipNum = 0;
+
     public FSMStateType StateName { get { return FSMStateType.Patrol; } }
 
     private NavMeshAgent ThisAgent;
@@ -30,7 +33,6 @@ public class PatrolState : MonoBehaviour, IFSMState
         ThisAgent.speed = MovementSpeed;
         ThisAgent.acceleration = Acceleration;
         ThisAgent.angularSpeed = AngularSpeed;
-
         ThisAnimator.SetBool(AnimationRunParamName, false);
     }
 
@@ -53,5 +55,7 @@ public class PatrolState : MonoBehaviour, IFSMState
 
         return StateName;
     }
+
+
 
 }

@@ -20,6 +20,10 @@ public class EntityHealth : MonoBehaviour
     private FirstPersonController fpController;
 
     public HealthBar healthBar;
+    public AudioSource hit1;
+    public AudioSource hit2;
+    public AudioSource death;
+    private bool toggleHitSound  = false;
 
     void Awake()
     {
@@ -45,7 +49,7 @@ public class EntityHealth : MonoBehaviour
                 fpController.JumpHeight = 0.0f;
                 fpController.RotationSpeed = 0.0f;
                 gameObject.transform.localRotation = Quaternion.Euler(-90.0f, transform.localRotation.y, transform.localRotation.z);
-                
+                death.Play();
 
                 if (DestroyOnDeath)
                 {
@@ -65,6 +69,19 @@ public class EntityHealth : MonoBehaviour
     public float getMaxHealth()
     {
         return maxHealth;
+    }
+
+    public void playerHit()
+    {
+        if (toggleHitSound)
+        {
+            hit1.Play();
+            toggleHitSound = !toggleHitSound;
+        } else
+        {
+            hit2.Play();
+            toggleHitSound = !toggleHitSound;
+        }
     }
 
     void Update()
