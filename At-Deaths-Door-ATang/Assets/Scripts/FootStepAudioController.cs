@@ -14,6 +14,11 @@ using StarterAssets;
 public class FootStepAudioController : MonoBehaviour
 {
     public GameObject player;
+    public float walkStepDelay = 3.0f;
+    public float runStepDelay = 1.5f;
+    private float speed;
+    private float walkTimer;
+    private float runTimer;
     private FirstPersonController fpc;
     private EntityHealth health;
     private Rigidbody body;
@@ -41,55 +46,85 @@ public class FootStepAudioController : MonoBehaviour
         fpc = player.GetComponent<FirstPersonController>();
         health = player.GetComponent<EntityHealth>();
         body = player.GetComponent<Rigidbody>();
+        speed = 0.0f;
         randomWalk = Random.Range(1, 4);
         randomRun = Random.Range(1, 4);
         randomJump = Random.Range(1, 2);
-        randomLand = Random.Range(1, 2);
+        walkTimer = runStepDelay;
+        runTimer = runStepDelay;
+        speed = 0.0f;
 
     }
 
     void Update()
     {
+        speed = body.velocity.magnitude;
+
+
         if (health.HealthPoints > 0)
         {
-            if (fpc.Grounded && (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.D)))
+            if (fpc.Grounded)
             {
-                while (body.velocity.magnitude > 0 && body.velocity.magnitude <= fpc.MoveSpeed)
+                if ((!Input.GetKey(KeyCode.LeftShift) && (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S)|| Input.GetKey(KeyCode.D))) || Input.GetKey(KeyCode.LeftShift) && fpc.sprintTime < 5.0f)
                 {
-                    if (randomWalk == 1)
-                        walk1.Play();
-                    if (randomWalk == 2)
-                        walk2.Play();
-                    if (randomWalk == 3)
-                        walk3.Play();
-                    if (randomWalk == 4)
-                        walk4.Play();
-
-                    randomWalk = Random.Range(1, 4);
-
+                    if (walkTimer <= 0.0f)
+                    {
+                        randomWalk = Random.Range(1, 4);
+                        if (randomWalk == 1)
+                            walk1.Play();
+                        if (randomWalk == 2)
+                            walk2.Play();
+                        if (randomWalk == 3)
+                            walk3.Play();
+                        if (randomWalk == 4)
+                            walk4.Play();
+                        runTimer = runStepDelay;
+                        walkTimer = walkStepDelay;
+                        Debug.Log("Walk Speed: " + speed);
+                    } 
+                        walkTimer -= Time.deltaTime;
                 }
-                while(body.velocity.magnitude > fpc.MoveSpeed)
+                
+                //else if ((speed > fpc.SprintSpeed))
+                  else if (fpc.sprintTime > 5.0f && Input.GetKey(KeyCode.LeftShift) && (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D)))
                 {
-                    if (randomRun == 1)
-                        run1.Play();
-                    if (randomRun == 2)
-                        run2.Play();
-                    if (randomRun == 3)
-                        run3.Play();
-                    if (randomRun == 4)
-                        run4.Play();
+                    if (runTimer <= 0)
+                    {
+                        randomRun = Random.Range(1, 4);
+                        if (randomRun == 1)
+                            run1.Play();
+                        if (randomRun == 2)
+                            run2.Play();
+                        if (randomRun == 3)
+                            run3.Play();
+                        if (randomRun == 4)
+                            run4.Play();
 
-                    randomRun = Random.Range(1, 4);
+                        walkTimer = walkStepDelay;
+                        runTimer = runStepDelay;
+                        Debug.Log("Run Speed: " + speed);
+                    }
+                     runTimer -= Time.deltaTime;
+                    
                 }
+                
 
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
-                    if (randomJump == 1)
-                        jump1.Play();
-                    if (randomJump == 2)
-                        jump2.Play();
-
+                    fpc.Grounded = false;
                     randomJump = Random.Range(1, 2);
+                    if (randomJump == 1) 
+                    {
+                        jump1.Play();
+                    }
+
+                    if (randomJump == 2)
+                    {
+                        jump2.Play();
+                    }
+
+                    walkTimer = 0.0f;
+                    runTimer = 0.0f;
                 }
 
             }
