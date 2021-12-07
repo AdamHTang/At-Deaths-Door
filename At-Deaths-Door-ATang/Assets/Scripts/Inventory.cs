@@ -16,6 +16,7 @@ public class Inventory : MonoBehaviour
     private int numStaminaPots;
     public int numKeys = 0;
     public GameObject player;
+    public float restoredHP = 25.0f;
 
     public AudioSource bottlePickup;
     public AudioSource unlockSound;
@@ -76,24 +77,29 @@ public class Inventory : MonoBehaviour
         if (numHealthPots > 0 && playerHealth.getHealthPoints() != playerHealth.getMaxHealth()) 
         {
             numHealthPots--;
-            float healthAdded = 50;
-            if (playerHealth.getHealthPoints() > 50)
-            {
-                healthAdded = playerHealth.getMaxHealth() - playerHealth.getHealthPoints();
-            }
+            float healthAdded = restoredHP;
             bottleUse.Play();
             playerHealth.HealthPoints += healthAdded;
+
+            if (playerHealth.HealthPoints > playerHealth.getMaxHealth())
+            {
+                playerHealth.HealthPoints = playerHealth.getMaxHealth();
+            }
         }
         
     }
 
     public void useSP()
     {
-        if (numStaminaPots > 0 && playerController!= null)
+        if (numStaminaPots > 0 && playerController!= null && playerController.sprintTime != playerController.maxSprintTime)
         {
             numStaminaPots--;
             bottleUse.Play();
-            playerController.sprintTime = playerController.maxSprintTime;
+            playerController.sprintTime += (playerController.maxSprintTime / 2.0f) ;
+            if (playerController.sprintTime > playerController.maxSprintTime)
+            {
+                playerController.sprintTime = playerController.maxSprintTime;
+            }
         }
     }
 

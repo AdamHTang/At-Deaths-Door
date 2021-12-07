@@ -448,9 +448,9 @@ MonoBehaviour:
   EscapeDistance: 3
   MaxAttackDistance: 2
   TargetTag: Player
-  DelayBetweenAttacks: 5
+  DelayBetweenAttacks: 2.5
   playerObj: {fileID: 0}
-  damage: 10
+  damage: 25
   attackSound: {fileID: 624013483731170420}
 --- !u!114 &1933577352841466680
 MonoBehaviour:
