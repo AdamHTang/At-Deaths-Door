@@ -15,12 +15,15 @@ public class OpenDoors : MonoBehaviour
     public GameObject lock2;
     public GameObject lock3;
     public string OpenDoorParam = "Open";
+    private AudioSource gateOpenSound;
 
     private Animator thisAnimator;
+    private bool soundPlayed = false;
 
     void Awake()
     {
         thisAnimator = GetComponent<Animator>();
+        gateOpenSound = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -28,6 +31,12 @@ public class OpenDoors : MonoBehaviour
         if (lock1 == null && lock2 == null && lock3 == null)
         {
             thisAnimator.SetTrigger(OpenDoorParam);
+
+            if (!soundPlayed)
+            {
+                soundPlayed = true;
+                gateOpenSound.Play();
+            }
         }
     }
 }

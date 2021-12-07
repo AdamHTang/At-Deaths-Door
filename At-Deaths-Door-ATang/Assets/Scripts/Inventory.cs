@@ -38,15 +38,18 @@ public class Inventory : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            useHP();
+        if(playerHealth.HealthPoints > 0 ){
+            if (Input.GetKeyDown(KeyCode.H))
+            {
+                useHP();
+            }
+
+            if (Input.GetKeyDown(KeyCode.J))
+            {
+                useSP();
+            }
         }
 
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            useSP();
-        }
     }
 
 

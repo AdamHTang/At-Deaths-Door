@@ -463,7 +463,10 @@ MonoBehaviour:
   FOV: 65
   AnimationChaseParamName: Chase
   chaseTimer: 10
+  maxScreamTimer: 25
+  minScreamTimer: 10
   player: {fileID: 0}
+  scream: {fileID: 8360189330369937276}
 --- !u!114 &1414512499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -489,7 +492,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 579a85b888c2b489a906a2721694262d, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.1
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -777,7 +780,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5fdb461555f214ae3854e33eaa45ee3f, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.1
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 0
   Mute: 0

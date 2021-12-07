@@ -12,9 +12,13 @@ public class ChaseState : MonoBehaviour, IFSMState
     public float FOV = 60.0f;
     public string AnimationChaseParamName = "Chase";
     public float chaseTimer = 10.0f;
+    public float maxScreamTimer = 25.0f;
+    public float minScreamTimer = 10.0f;
     public Transform player;
+    public AudioSource scream;
 
     private float timeToChase;
+    private float screamTimer;
     private bool isChasing = false;
     private readonly float MinChaseDistance = 2.0f;
     private NavMeshAgent ThisAgent;
@@ -28,6 +32,7 @@ public class ChaseState : MonoBehaviour, IFSMState
         SightLine = GetComponent<SightLine>();
         ThisAnimator = GetComponent<Animator>();
         timeToChase = chaseTimer;
+        screamTimer = 0.0f;
     }
 
     public void OnEnter()
@@ -72,10 +77,25 @@ public class ChaseState : MonoBehaviour, IFSMState
 
     void Update()
     {
+        if (isChasing)
+        {
+            if (screamTimer < 0.0f)
+            {
+                scream.Play();
+                screamTimer = Random.Range(minScreamTimer, maxScreamTimer);
+            }
+            else
+            {
+                screamTimer -= Time.deltaTime;
+            }
+        }
+
         if (timeToChase < 0.0f)
         {
             isChasing = false;
-        }
+            screamTimer = 1.0f;
+        } 
+
 
         Debug.Log("Time to chase - " + timeToChase);
         if (!SightLine.IsTargetInSightLine && isChasing)
@@ -85,7 +105,12 @@ public class ChaseState : MonoBehaviour, IFSMState
 
         } else if (SightLine.IsTargetInSightLine) {
             timeToChase = chaseTimer;
+
         }
+
+
+
+
 
 
         
