@@ -26,7 +26,6 @@ public class SightLine : MonoBehaviour
 
     void Awake()
     {
-        ThisCollider = GetComponent<SphereCollider>();
         LastKnowSighting = transform.position;
     }
 

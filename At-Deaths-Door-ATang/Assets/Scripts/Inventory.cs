@@ -95,11 +95,7 @@ public class Inventory : MonoBehaviour
         {
             numStaminaPots--;
             bottleUse.Play();
-            playerController.sprintTime += (playerController.maxSprintTime / 2.0f) ;
-            if (playerController.sprintTime > playerController.maxSprintTime)
-            {
-                playerController.sprintTime = playerController.maxSprintTime;
-            }
+            playerController.sprintTime += (playerController.maxSprintTime) ;
         }
     }
 
