@@ -146,7 +146,7 @@ namespace StarterAssets
 
 		private void Move()
 		{
-			if (_input.sprint && sprintTime >= 0f && Grounded)
+			if (_input.sprint && sprintTime >= 0f && Grounded && (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D)))
 			{
 				isSprinting = true;
 			}
@@ -155,12 +155,12 @@ namespace StarterAssets
 				isSprinting = false;
 			}
 
-			if (_input.sprint && sprintTime >=0 && Grounded)
+			if (_input.sprint && sprintTime >=0 && Grounded && (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D)))
 			{
 				sprintTime -= 1f;
 				staminaBar.SetHealth(sprintTime);
 			}
-			else if (!_input.sprint && sprintTime<=maxSprintTime && Grounded)
+			else if ((!_input.sprint && sprintTime<=maxSprintTime && Grounded)  || (_input.sprint && !((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))) && sprintTime <= maxSprintTime && Grounded))
 			{
 				sprintTime += sprintRechargeRate;
 				staminaBar.SetHealth(sprintTime);

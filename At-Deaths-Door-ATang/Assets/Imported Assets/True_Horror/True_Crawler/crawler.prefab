@@ -258,7 +258,6 @@ GameObject:
   - component: {fileID: 4973280238224715162}
   - component: {fileID: 4973280238224715161}
   - component: {fileID: 4973280238224715164}
-  - component: {fileID: 8601018965930586950}
   - component: {fileID: 4973280238224715160}
   - component: {fileID: 4973280238224715165}
   - component: {fileID: 1900370386354666450}
@@ -356,19 +355,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 15
   m_Center: {x: 0, y: 0, z: 0}
---- !u!135 &8601018965930586950
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4973280236842578687}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 3
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &4973280238224715160
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -407,7 +393,6 @@ MonoBehaviour:
   TargetTag: Player
   FieldOfView: 65
   ThisCollider: {fileID: 4973280238224715164}
-  killCollider: {fileID: 8601018965930586950}
 --- !u!114 &1900370386354666450
 MonoBehaviour:
   m_ObjectHideFlags: 0

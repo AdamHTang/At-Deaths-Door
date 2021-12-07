@@ -22,7 +22,6 @@ public class SightLine : MonoBehaviour
     public Vector3 LastKnowSighting { get; set; } = Vector3.zero;
 
     public SphereCollider ThisCollider;
-    public SphereCollider killCollider;
 
     void Awake()
     {
@@ -79,7 +78,7 @@ public class SightLine : MonoBehaviour
     {
         RaycastHit Info;
         Vector3 DirToTarget = (Target.transform.position - EyePoint.transform.position).normalized;
-        if (Physics.Raycast(EyePoint.position, DirToTarget, out Info, killCollider.radius))
+        if (Physics.Raycast(EyePoint.position, DirToTarget, out Info, ThisCollider.radius/5.0f))
         {
             if (Info.transform.CompareTag(TargetTag))
             {
